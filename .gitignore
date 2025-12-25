@@ -1,0 +1,34 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sln
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.log
+
+# Rider / JetBrains
+.idea/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Unreal asset build products (keep your source assets in Content/)
+**/DerivedDataCache/
+
+# Optional: if you use Perforce workspaces etc.
+*.p4ignore

@@ -1,0 +1,94 @@
+Name,act,scene,dp_id,row_type,prompt_text,option_key,option_text,immediate,long_term
+DP_1_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1,PROMPT,Approach to the void-lake,,,,
+DP_1_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1,OPTION,Approach to the void-lake,A,Perform the cautious ritual.,+LI_TRUST; +CAW_DISCIPLINE; -VOID_TAINT (minor),Set RITUAL_RESPECT=1
+DP_1_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1,OPTION,Approach to the void-lake,B,Improvise and drink.,+VOID_TAINT (moderate); +ARENA_HEAT (minor),Set RITUAL_RESPECT=0
+DP_1_OPT_C,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1,OPTION,Approach to the void-lake,C,Refuse; seek alternative power.,Delay Catalyst onset; +GHOSTFLEET_INTEL (if exploration succeeds),Unlock side scene S1b
+DP_1A_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1A,PROMPT,Save Nef or secure the relics (time-boxed),,,,
+DP_1A_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1A,OPTION,Save Nef or secure the relics (time-boxed),A,Save Nef first.,+REP_DIMS; +LI_TRUST (minor); Lose some loot,Set NEF_SAVED=1
+DP_1A_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-1A,OPTION,Save Nef or secure the relics (time-boxed),B,Secure relics first.,+Artifacts; +VOID_TAINT (minor risk),Set NEF_SAVED=0; Unlock guilt banter later
+DP_2_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-2,PROMPT,Kazon’s parley (bread/salt/name),,,,
+DP_2_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-2,OPTION,Kazon’s parley (bread/salt/name),A,Accept bread & offer prayer.,+TISSA_LOYALTY; Flag PRAYER_BOUND=1,Enable omen scenes
+DP_2_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-2,OPTION,Kazon’s parley (bread/salt/name),B,Decline bread; distance.,+CAW_DISCIPLINE; -REP_DIMS (minor),No omen scenes
+DP_2A_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-2A,PROMPT,Accept a demon mark as safe-conduct,,,,
+DP_2A_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-2A,OPTION,Accept a demon mark as safe-conduct,A,Accept the mark (hidden).,+Mobility; +Kazon favor; -REP_HASRA,Flag DEMON_MARK=1; Special checks later
+DP_2A_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S1 — Into the Warrens,DP-2A,OPTION,Accept a demon mark as safe-conduct,B,Refuse the mark.,+REP_HASRA; +CAW_DISCIPLINE,Flag DEMON_MARK=0
+DP_3_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3,PROMPT,Handle barracks hazing,,,,
+DP_3_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3,OPTION,Handle barracks hazing,A,Stand up publicly.,+ARENA_HEAT; +REP_DIMS; Injury risk,Unlock duel tutorial S2a
+DP_3_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3,OPTION,Handle barracks hazing,B,De-escalate (doctrine).,+CAW_DISCIPLINE; +Caw mentor scenes,Set CAW_MENTOR=1
+DP_3_OPT_C,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3,OPTION,Handle barracks hazing,C,Stealth payback via Tissa.,+TISSA_LOYALTY; +VOID_TAINT (minor if void used),Add stealth tag later
+DP_3A_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3A,PROMPT,Choose dec/quin composition for training,,,,
+DP_3A_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3A,OPTION,Choose dec/quin composition for training,A,Shield-heavy dec (tanks).,+Survivability; -Tempo,Tag DECCOMP=SHIELD
+DP_3A_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3A,OPTION,Choose dec/quin composition for training,B,Skirmisher quin (agile).,+Tempo; -Stability,Tag DECCOMP=SKIRMISH
+DP_3A_OPT_C,Act I — The Call and the Warrens (with Added Decisions),S2 — The Call — Conscript Muster,DP-3A,OPTION,Choose dec/quin composition for training,C,Balanced mix.,+Flexibility,Tag DECCOMP=BALANCED
+DP_4_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S3 — March to the Pass,DP-4,PROMPT,Scavenge vs. maintain pace,,,,
+DP_4_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S3 — March to the Pass,DP-4,OPTION,Scavenge vs. maintain pace,A,Scavenge supplies.,Gain consumables; -CAW_DISCIPLINE,Random encounter risk
+DP_4_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S3 — March to the Pass,DP-4,OPTION,Scavenge vs. maintain pace,B,Maintain pace by the book.,+CAW_DISCIPLINE; Less fatigue,Unlock Caw trust banter
+DP_4A_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S3 — March to the Pass,DP-4A,PROMPT,Who carries the wounded?,,,,
+DP_4A_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S3 — March to the Pass,DP-4A,OPTION,Who carries the wounded?,A,Rotate burden across the dec.,+Cohesion; Higher fatigue,Cohesion scenes
+DP_4A_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S3 — March to the Pass,DP-4A,OPTION,Who carries the wounded?,B,Leave them to the rear (grim).,+Tempo; Moral cost; -REP_DIMS,Set ABANDONED=1
+DP_5_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S4 — Boss: The Dullahan Pursuit,DP-5,PROMPT,Mud-blindness execution,,,,
+DP_5_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S4 — Boss: The Dullahan Pursuit,DP-5,OPTION,Mud-blindness execution,A,Full team coordination (needs CAW_DISCIPLINE ≥2).,Clean escape; +LI_TRUST,Set MUD_TRICK_MASTERED=1
+DP_5_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S4 — Boss: The Dullahan Pursuit,DP-5,OPTION,Mud-blindness execution,B,Chaotic retreat.,Escape with injuries; +ARENA_HEAT,Set MUD_TRICK_MASTERED=0
+DP_5A_PROMPT,Act I — The Call and the Warrens (with Added Decisions),S4 — Boss: The Dullahan Pursuit,DP-5A,PROMPT,Who draws aggro?,,,,
+DP_5A_OPT_A,Act I — The Call and the Warrens (with Added Decisions),S4 — Boss: The Dullahan Pursuit,DP-5A,OPTION,Who draws aggro?,A,Xal uses void flare.,+VOID_TAINT; +Team safety,Void tells spread in city
+DP_5A_OPT_B,Act I — The Call and the Warrens (with Added Decisions),S4 — Boss: The Dullahan Pursuit,DP-5A,OPTION,Who draws aggro?,B,Caw anchors shield wall.,+CAW_DISCIPLINE; Caw injury risk,Caw injury storylet
+DP_6_PROMPT,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6,PROMPT,Exhibition performance,,,,
+DP_6_OPT_A,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6,OPTION,Exhibition performance,A,Play to the crowd.,+ARENA_HEAT (big); +REP_HASRA (spectacle),Media flags
+DP_6_OPT_B,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6,OPTION,Exhibition performance,B,Understated efficiency.,+CAW_DISCIPLINE; -ARENA_HEAT,Tactician respect
+DP_6A_PROMPT,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6A,PROMPT,Choose a sponsor (soft faction lock),,,,
+DP_6A_OPT_A,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6A,OPTION,Choose a sponsor (soft faction lock),A,Kem Overseers.,+REP_HASRA; +Payouts,Sponsor=KEM
+DP_6A_OPT_B,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6A,OPTION,Choose a sponsor (soft faction lock),B,Temple Stewards.,+Access to sanctums; -ARENA_HEAT growth,Sponsor=STEWARDS
+DP_6A_OPT_C,Act II — Courts & Cannons (with Added Decisions),S5 — Arena & Court Tour,DP-6A,OPTION,Choose a sponsor (soft faction lock),C,Independent (Dims patrons).,+REP_DIMS; +Freedom; -Court access,Sponsor=INDEP
+DP_7_PROMPT,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7,PROMPT,Assassination response,,,,
+DP_7_OPT_A,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7,OPTION,Assassination response,A,Expose publicly.,+REP_HASRA (mixed); +ARENA_HEAT; Crispus rival,CRISPUS_EXPOSED=1
+DP_7_OPT_B,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7,OPTION,Assassination response,B,Counter quietly; collect leverage.,+TISSA_LOYALTY; +Li alliance,BLACKMAIL_CARDS+1
+DP_7_OPT_C,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7,OPTION,Assassination response,C,Let it happen.,Erik removed; Moral cost; +VOID_TAINT (minor),Early regime vacuum
+DP_7A_PROMPT,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7A,PROMPT,Protective detail assignment,,,,
+DP_7A_OPT_A,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7A,OPTION,Protective detail assignment,A,Guard Li.,+LI_TRUST; +REP_CALMORA,LI_SAVED=1 path
+DP_7A_OPT_B,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7A,OPTION,Protective detail assignment,B,Shadow Crispus.,+Intel chance; +Risk,CRISPUS_DIRT+1
+DP_7A_OPT_C,Act II — Courts & Cannons (with Added Decisions),S6 — Knife-Banquet (Poison Plot),DP-7A,OPTION,Protective detail assignment,C,Secure the kitchen route.,+TISSA_LOYALTY; -ARENA_HEAT,KITCHEN_CLEAR=1
+DP_8_PROMPT,Act II — Courts & Cannons (with Added Decisions),S7 — Spear of Jhordil — Mountain Docking,DP-8,PROMPT,Docking approach,,,,
+DP_8_OPT_A,Act II — Courts & Cannons (with Added Decisions),S7 — Spear of Jhordil — Mountain Docking,DP-8,OPTION,Docking approach,A,Conservative pattern.,Low damage; +LI_TRUST,Li mentorship scene
+DP_8_OPT_B,Act II — Courts & Cannons (with Added Decisions),S7 — Spear of Jhordil — Mountain Docking,DP-8,OPTION,Docking approach,B,Aggressive weave.,Faster time; Damage risk; +ARENA_HEAT,AIR_NERVE=1
+DP_8A_PROMPT,Act II — Courts & Cannons (with Added Decisions),S7 — Spear of Jhordil — Mountain Docking,DP-8A,PROMPT,Ritual etiquette at the Spear,,,,
+DP_8A_OPT_A,Act II — Courts & Cannons (with Added Decisions),S7 — Spear of Jhordil — Mountain Docking,DP-8A,OPTION,Ritual etiquette at the Spear,A,Follow rites precisely.,+REP_CALMORA; +LI_TRUST,RITUAL_ETIQUETTE=1
+DP_8A_OPT_B,Act II — Courts & Cannons (with Added Decisions),S7 — Spear of Jhordil — Mountain Docking,DP-8A,OPTION,Ritual etiquette at the Spear,B,Shortcut with void trick.,+VOID_TAINT; -REP_CALMORA,RITUAL_ETIQUETTE=0
+DP_9_PROMPT,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9,PROMPT,How to gather intel,,,,
+DP_9_OPT_A,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9,OPTION,How to gather intel,A,Risk forward scouts.,Faster +GHOSTFLEET_INTEL; Injury risk,Recon casualty debuffs
+DP_9_OPT_B,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9,OPTION,How to gather intel,B,Decode from ports (slow).,+GHOSTFLEET_INTEL (slow); Resource cost,Scholar assists
+DP_9A_PROMPT,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9A,PROMPT,Ambush target selection,,,,
+DP_9A_OPT_A,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9A,OPTION,Ambush target selection,A,Supply tenders.,Starve Fleet; +Valys gratitude,VALYS_AID=1
+DP_9A_OPT_B,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9A,OPTION,Ambush target selection,B,Flagship screen.,High risk; big fame; +ARENA_HEAT,SCREEN_BROKEN=1
+DP_9A_OPT_C,Act III — War on Two Fronts (with Added Decisions),S8 — Ghost Fleet Pattern,DP-9A,OPTION,Ambush target selection,C,Coastal cult cell.,+Intel chain; +REP_HASRA (if reported),CULT_WEB+1
+DP_10_PROMPT,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10,PROMPT,Infiltration rules,,,,
+DP_10_OPT_A,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10,OPTION,Infiltration rules,A,Hardline targets only.,Lower collateral; Slower progress,+REP_CALMORA
+DP_10_OPT_B,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10,OPTION,Infiltration rules,B,Any advantage.,Faster progress; Moral cost,+VOID_TAINT (minor)
+DP_10A_PROMPT,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10A,PROMPT,Cover identity for Macha,,,,
+DP_10A_OPT_A,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10A,OPTION,Cover identity for Macha,A,Dock scribe.,+Access to manifests; Slower scenes,MACHA_COVER=SCRIBE
+DP_10A_OPT_B,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10A,OPTION,Cover identity for Macha,B,Temple novice.,+Access to rites; Ethical scrutiny,MACHA_COVER=NOVICE
+DP_10A_OPT_C,Act III — War on Two Fronts (with Added Decisions),S9 — Conclave: Macha’s Geas,DP-10A,OPTION,Cover identity for Macha,C,Arena handler.,+Access to fighters; +ARENA_HEAT,MACHA_COVER=HANDLER
+DP_11_PROMPT,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11,PROMPT,First upgrade path,,,,
+DP_11_OPT_A,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11,OPTION,First upgrade path,A,Stealth shroud & sensor veil.,+Stealth encounters; -ARENA_HEAT growth,FIST_UPGRADES:STEALTH
+DP_11_OPT_B,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11,OPTION,First upgrade path,B,Ballista & ramming spine.,+Sky combat; +ARENA_HEAT,FIST_UPGRADES:ASSAULT
+DP_11_OPT_C,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11,OPTION,First upgrade path,C,Crew habitat & logistics.,+Recovery; +Morale,FIST_UPGRADES:SUPPORT
+DP_11A_PROMPT,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11A,PROMPT,Crew composition,,,,
+DP_11A_OPT_A,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11A,OPTION,Crew composition,A,Veteran marines.,+Boarding power; Higher upkeep,CREW=MARINES
+DP_11A_OPT_B,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11A,OPTION,Crew composition,B,Scouts & riggers.,+Recon; +Traversal,CREW=SCOUTS
+DP_11A_OPT_C,Act III — War on Two Fronts (with Added Decisions),S10 — The Fist — Forge & Fly,DP-11A,OPTION,Crew composition,C,Scholars & priests.,+Lore; Ritual boosts,CREW=SCHOLARS
+DP_12_PROMPT,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12,PROMPT,Public stance on the coup,,,,
+DP_12_OPT_A,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12,OPTION,Public stance on the coup,A,Denounce Crispus.,+REP_DIMS; -REP_HASRA; +ARENA_HEAT,CRISPUS_ENEMY=1
+DP_12_OPT_B,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12,OPTION,Public stance on the coup,B,Work inside the system.,+REP_HASRA; Intel access,BLACKMAIL_CARDS+1
+DP_12_OPT_C,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12,OPTION,Public stance on the coup,C,Stay neutral.,Lower heat; Fewer resources,Neutral path to Game II
+DP_12A_PROMPT,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12A,PROMPT,Broadcast to the city,,,,
+DP_12A_OPT_A,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12A,OPTION,Broadcast to the city,A,Call for calm & unity.,+REP_HASRA; +REP_DIMS (minor),CITY_CALM=1
+DP_12A_OPT_B,Act IV — Endgame & Revelation (with Added Decisions),S11 — Sedjet’s Wyrm / Regime Fall,DP-12A,OPTION,Broadcast to the city,B,Call out the lies.,+ARENA_HEAT; +REP_DIMS,CITY_CALM=0; Uprising seeds
+DP_13_PROMPT,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13,PROMPT,Confront the name (Xal vs. Xalegos),,,,
+DP_13_OPT_A,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13,OPTION,Confront the name (Xal vs. Xalegos),A,Embrace (covenant).,+VOID_TAINT cap increase; Faith-based powers,Export DIVINE
+DP_13_OPT_B,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13,OPTION,Confront the name (Xal vs. Xalegos),B,Reject (mortal).,More social paths; Lower raw power,Export MORTAL
+DP_13_OPT_C,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13,OPTION,Confront the name (Xal vs. Xalegos),C,Defer (seek proof).,Hold ambiguity; +GHOSTFLEET_INTEL,Export AMBIG
+DP_13A_PROMPT,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13A,PROMPT,Method of covenant (if embraced),,,,
+DP_13A_OPT_A,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13A,OPTION,Method of covenant (if embraced),A,Temple rite (public).,+REP_CALMORA; +ARENA_HEAT,DIVINE_PUBLIC=1
+DP_13A_OPT_B,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13A,OPTION,Method of covenant (if embraced),B,Hidden pact (private).,+Stealth; +Li concern,DIVINE_SECRET=1
+DP_13B_PROMPT,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13B,PROMPT,Mercy for the saboteur at the Reactor,,,,
+DP_13B_OPT_A,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13B,OPTION,Mercy for the saboteur at the Reactor,A,Spare and recruit.,+REP_DIMS; +Intel,SABOTEUR_ALLY=1
+DP_13B_OPT_B,Act IV — Endgame & Revelation (with Added Decisions),S12 — Reactor & Names,DP-13B,OPTION,Mercy for the saboteur at the Reactor,B,Execute as example.,+REP_HASRA; Fear effect,SABOTEUR_ALLY=0

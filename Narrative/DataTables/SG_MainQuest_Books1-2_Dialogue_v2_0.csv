@@ -1,0 +1,155 @@
+seq,beat_id,beat_desc,pos,speaker_guess,dialogue,optional
+1,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,871568,Saghir,"“I will do whatever I must to protect you from Erik when we attempt the Reactor. Almost, if we survive, I begin to believe that we can change things, and this I would see. I would have my people free, one day.”",0
+2,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,1393526,Saghir,“I notice there are no servants here. Even nobility serves themselves. It must be insanely challenging for Erik and Darius. Are there no slaves as in Hasra?”,0
+3,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,540515,Saghir,"“Ah, well, I shouldn’t expect more. Remedying ignorance is my job, after all, but this will be quite the monumental task. The Hasran Settlement was first chartered during the height of Elentian power, long before the Fall bisected their empire with the Ashlands. You will simply love that chapter when we get there. Ash rained for a year and a day, sent by the Stewards as punishment for the Mad Emperor’s hubris. But I am getting ahead of myself, as I always do.”",0
+4,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,712914,Saghir,"“I need a way to secure myself to friend Xal’s collar. Time permitting, I would have us construct or purchase a box lined with chain that I can hide in, sewn upon his back somehow.”",0
+5,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,1086043,Saghir,“I am called Saghir.”,0
+6,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,540244,Saghir,"“Hasran Settlement,”",0
+7,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,618918,Saghir,"“That scale is worth a thousand Hasran golden eagles, so yes, more than enough for the both of you. However, your training would be very different.”",0
+8,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,1014139,Saghir,“Friend Xal?”,0
+9,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,1393462,Saghir,"“Friend Li,”",0
+10,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,38041,Tissa,"“Naunet, be sated. Atum, hold sway.”",0
+11,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,38184,Tissa,--- Page 22 ---,0
+12,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,38200,Tissa,“How the depths did you know to do that?”,0
+13,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,38277,Tissa,“The words came from the journal we landed last month.”,0
+14,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,38445,Tissa,"“A trap like this can hold a disintegrate spell, but it can’t reset. That means that no one has been beyond this point. If they had, the spell would have to be inactive. We’re the first people here in decades.”",0
+15,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,109948,Even Cili,--- Page 58 ---,0
+16,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,110210,Even Cili,--- Page 59 ---,0
+17,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,146637,Li,--- Page 77 ---,0
+18,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,353133,Li,"“Brace yourself,”",0
+19,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,379328,Darius,"“Saghir, you and Jun seem to know the most about how Hasra works. Do you know what we’re walking into? All my mother told me was that if we lived, we’d get a choice. Money or school, like Darius said.”",0
+20,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,405990,Lucretia,"“You cannot afford to be a child any longer, Erik. You are the heir to the Hasran Imperium. You must think through every action, from every angle, as your mother has taught you.”",0
+21,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,469238,Li,“What did he mean about the Catalyst?”,0
+22,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,469372,Li,"“that at the end of term we will be administered a series of final exams. If we pass those exams, then we will be granted access to the Reactor itself. You were in the palace. Do you remember when we arrived and you could see through the floor?”",0
+23,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,512941,,"“A correct answer. How very rare. The first in your class today, unless you count Ephram, and he was held back last year for cowardice. How did you know when Olivanticus was killed?”",0
+24,MQ1_Inciting,Inciting Incident — Reactor unrest in Hasra,515995,Saghir,"“There. I was able to fit the entire assessment into a single class. I am amazing. Now then…scurry away, little urchins, and find your next classes.”",0
+25,MQ2_Palace,Palace engagement — Princess Li sets the charge,519890,Ephram,"“That’s Princess Li,”",0
+26,MQ2_Palace,Palace engagement — Princess Li sets the charge,5188570,Tissa,"“How about you defend your beliefs? Come out and fight, Princess. I’ll give you the chance I didn’t give Erik.”",0
+27,MQ2_Palace,Palace engagement — Princess Li sets the charge,5425953,Saghir,"“The guardian is someone you’ve never met. Erik’s brother Ducius, the reincarnation of a powerful dreadlord. Olivanticus. Saghir is a member of their council.”",0
+28,MQ2_Palace,Palace engagement — Princess Li sets the charge,5476817,Saghir,“What of Princess Li?”,0
+29,MQ2_Palace,Palace engagement — Princess Li sets the charge,519968,Ephram,"“Put away whatever notions you’ve got. She doesn’t date anyone who can’t beat her in a fight or at Kem, so that’s basically just Erik. Maybe Crispus.”",0
+30,MQ2_Palace,Palace engagement — Princess Li sets the charge,1481012,Saghir,"“Xalegos was the name. I suspect this is not the ﬁrst time you have heard it, friend Xal.”",0
+31,MQ2_Palace,Palace engagement — Princess Li sets the charge,2129668,Erik,"“I don’t suggest, Ducius. I speak directly.”",0
+32,MQ2_Palace,Palace engagement — Princess Li sets the charge,2555475,Ashianna,"“Li, would you mind sending a missive to your mother to ask how far out she is? Invite her to a war council with Etrian and me, please. As politely as you can. Please, let her know she will have an equal voice and that we are eternally grateful for Calmoran assistance. And that her daughter has acquitted herself with honor.”",0
+33,MQ2_Palace,Palace engagement — Princess Li sets the charge,4607002,Ducius,"“If you’d like, she can conduct you to her people’s outpost. They’ve taken up
+--- Page 562 ---
+refuge at Temis’s manor and are actively repairing it. Saghir could officially attend a council meeting, and you could see the threat we face. We have actively begun to oppose the tree and reclaim some of the manors the forest took. One could be yours if you wish it.”",0
+34,MQ2_Palace,Palace engagement — Princess Li sets the charge,4719300,Saghir,“It will send everything at its disposal to stop us. In short… we will become the new target. That is how Master Ducius plans to stop the invasion.”,0
+35,MQ2_Palace,Palace engagement — Princess Li sets the charge,5068640,Saghir,“I am called Saghir.”,0
+36,MQ2_Palace,Palace engagement — Princess Li sets the charge,5205543,Saghir,"“If you are serious about Erik,”",0
+37,MQ2_Palace,Palace engagement — Princess Li sets the charge,5679760,Saghir,“How soon can you get word to Xal?”,0
+38,MQ2_Palace,Palace engagement — Princess Li sets the charge,2373286,Li,“Why do they call you princess?”,0
+39,MQ2_Palace,Palace engagement — Princess Li sets the charge,2373362,Li,“I hope it’s not rude to ask. I’m not trying to elevate myself or anything. I just thought you didn’t have princesses here.”,0
+40,MQ2_Palace,Palace engagement — Princess Li sets the charge,4686122,Ducius,“I would suggest that you bring your journey up for discussion during the council meeting.”,0
+41,MQ2_Palace,Palace engagement — Princess Li sets the charge,5205623,Saghir,"“We will need a way to locate the soul. I know this is possible, but have no experience in such matters. It is possible the dread council can aid us. I will missive Liloth and see what she knows.”",0
+42,MQ2_Palace,Palace engagement — Princess Li sets the charge,5431953,Li,"“Give me the tour, dreadlord. Tell me of your dark council. I would know my allies before riding into battle together.”",0
+43,MQ2_Palace,Palace engagement — Princess Li sets the charge,353999,,"“I didn’t see you there. I am Princess Li of
+--- Page 193 ---
+House Calmora.”",0
+44,MQ2_Palace,Palace engagement — Princess Li sets the charge,354313,,"“I have heard many tales of the Celestial Mountain and the wonders there. It is a true honor to meet you, even had you not saved us. Since you have, then I owe water debt to you and to Xal. Thank you, Princess.”",0
+45,MQ2_Palace,Palace engagement — Princess Li sets the charge,405374,,"“What was it you thought, Erik? That you would bring void-touched children into my palace, and what—you would be friends? Ride to war together?”",0
+46,MQ2_Palace,Palace engagement — Princess Li sets the charge,416689,,“Should we retrieve Xal for the audience? Do you think Professor Vurmak will choose him in the induction? Will there be an induction?”,0
+47,MQ2_Palace,Palace engagement — Princess Li sets the charge,469238,Li,“What did he mean about the Catalyst?”,0
+48,MQ2_Palace,Palace engagement — Princess Li sets the charge,469372,Li,"“that at the end of term we will be administered a series of final exams. If we pass those exams, then we will be granted access to the Reactor itself. You were in the palace. Do you remember when we arrived and you could see through the floor?”",0
+49,MQ3_Archive,Archive breach — truth of the erased report,373146,Erik,“Let’s get the urchins fed quickly. They’re all flagging. We’ll get them into quarters and then report to my mother. I cannot believe what a single conscript achieved. We need to get him on a griffin before the next term. He’ll make us unstoppable in the arena.”,0
+50,MQ3_Archive,Archive breach — truth of the erased report,1698787,,"“Report to Prince Erik. You will obey his orders for the term, and your marks will reﬂect your quint’s performance.”",0
+51,MQ3_Archive,Archive breach — truth of the erased report,1699314,,“Report to Princess Li. You will follow her order—”,0
+52,MQ3_Archive,Archive breach — truth of the erased report,1699461,,"“Report to Xal,”",0
+53,MQ3_Archive,Archive breach — truth of the erased report,4058513,Ducius,"“My dear companions, fellow survivors of our horrific journey,”",0
+54,MQ3_Archive,Archive breach — truth of the erased report,4058653,Ducius,“We are off to find passage to the capital. If you would be so kind…the law requires that we report what occurred along the trail. There is a small Temple of Dalanthar. Perhaps it would be prudent for you to tell them whatever you think appropriate about our journey as you are of the faith?”,0
+55,MQ3_Archive,Archive breach — truth of the erased report,4265966,,"“I’m sorry, Tissa. I should have predicted the assassin. That was sloppy. I will report myself to Lucretia. How did you know?”",0
+56,MQ3_Archive,Archive breach — truth of the erased report,4782832,Li,"“You weren’t there,”",0
+57,MQ3_Archive,Archive breach — truth of the erased report,373062,Erik,"“Darius,”",0
+58,MQ3_Archive,Archive breach — truth of the erased report,652152,,"“Morning, Ephram.”",0
+59,MQ3_Archive,Archive breach — truth of the erased report,934345,,"“We have bested Zaro and Dalanthar. A feat I’d not have thought possible. And, had Xal not won, Li would have. Which means we have the first and second place champion from the tourney. The Praetor will be pleased.”",0
+60,MQ3_Archive,Archive breach — truth of the erased report,934616,,"“Besides, any goodwill you’ve bought will be erased by my inability to distinguish
+--- Page 516 ---
+myself. Gavius ‘survived school with passing marks’ doesn’t have the same ring to it as Ashianna, ‘champion of the sands.’”",0
+61,MQ3_Archive,Archive breach — truth of the erased report,1580163,,"“Li. Xal. Come with me. The rest of you, spend the day drilling or resting as your conscience dictates.”",0
+62,MQ3_Archive,Archive breach — truth of the erased report,1699366,,"“Apologies for the interruption, but Xal is the leader of our quint.”",0
+63,MQ3_Archive,Archive breach — truth of the erased report,1987270,,"“Master Saghir,”",0
+64,MQ3_Archive,Archive breach — truth of the erased report,1989269,,"“Good ﬁght, you two. Thandres favor you next week in the ﬁnals. Give Erik something to think about.”",0
+65,MQ3_Archive,Archive breach — truth of the erased report,3777468,,“And where does Erik stand on all this?”,0
+66,MQ3_Archive,Archive breach — truth of the erased report,3777625,,“Erik is holding on to himself.”,0
+67,MQ3_Archive,Archive breach — truth of the erased report,3777722,,"“He struggles. Vhala watches over him, thankfully, and reports back to me when she has cause for concern. Erik is focused on winning the war and has accomplished much in that regard. He’s
+--- Page 30 ---
+turned six legions of conscripts into a real army, one the veteran legions are jealous of. One with high morale and loyalty to him.”",0
+68,MQ3_Archive,Archive breach — truth of the erased report,3819626,,"“Desidria has grown still more paranoid, and the eyeless report directly to her. If she finds you…it would go poorly, and worse for anyone caught near you. Remember that, Xal. Your presence in this city is a threat to everyone you love.”",0
+69,MQ3_Archive,Archive breach — truth of the erased report,4320215,,“A better question for Ducius maybe.”,0
+70,MQ3_Archive,Archive breach — truth of the erased report,5136804,They,“E-erik is dead.”,0
+71,MQ3_Archive,Archive breach — truth of the erased report,5138570,,"“Saghir, Ena, and I can take care of it.”",0
+72,MQ3_Archive,Archive breach — truth of the erased report,5292119,,"“Then we go on foot. Saghir, will you set us down on the edge of the wood? Will you be going with us or staying with the ship?”",0
+73,MQ4_Vault,Khalir’s Vault — relic and custody,1560017,Erik,“Erik told me that you’ve been working after it for years. That you’ve made a lot of progress. He thinks Li should just kill you.”,0
+74,MQ4_Vault,Khalir’s Vault — relic and custody,1694820,Ashianna,"“And is it as lethal as walking around seems to be? Erik killed that man, and no one blinked twice. Will he face some sort of charges?”",0
+75,MQ4_Vault,Khalir’s Vault — relic and custody,1086043,Saghir,“I am called Saghir.”,0
+76,MQ4_Vault,Khalir’s Vault — relic and custody,1560148,Erik,“Erik said that?”,0
+77,MQ4_Vault,Khalir’s Vault — relic and custody,1694986,Ashianna,"“That boy, not a man, picked a ﬁght. He deserved what he got. His parents and siblings will hate Erik, but they already hated Erik. They hate everything Hasran.”",0
+78,MQ4_Vault,Khalir’s Vault — relic and custody,1739889,Ashianna,“We’ve fought Crispus and won. And Erik and won.”,0
+79,MQ4_Vault,Khalir’s Vault — relic and custody,1313725,Li,“You’ll see them all over our kingdom. They’re the most eﬀicient way we use limited space.”,0
+80,MQ4_Vault,Khalir’s Vault — relic and custody,1314981,Li,"“Wild sky rice was the ﬁrst crop we domesticated after we settled here. The plants ﬂock in the sky looking for sources of water, but air mages drag them down to settlements where they can be tended to properly.”",0
+81,MQ4_Vault,Khalir’s Vault — relic and custody,38041,Tissa,"“Naunet, be sated. Atum, hold sway.”",0
+82,MQ4_Vault,Khalir’s Vault — relic and custody,38184,Tissa,--- Page 22 ---,0
+83,MQ4_Vault,Khalir’s Vault — relic and custody,38200,Tissa,“How the depths did you know to do that?”,0
+84,MQ4_Vault,Khalir’s Vault — relic and custody,78494,Tissa,“I—who are you?”,0
+85,MQ4_Vault,Khalir’s Vault — relic and custody,78648,Kalika,“No offense has been given.”,0
+86,MQ4_Vault,Khalir’s Vault — relic and custody,78767,Kalika,"“I am called Kalika. The chalice bears the blood of Rakta-Bija, a dangerous thing but one we have harnessed to our purpose. If you drink it, the blood will sustain you, but not in the same way as the blood of the forgotten god. Drinking of the Rakta burdens with hunger. You will crave the blood of the living, but in the consumption gain the magic of those you devour.”",0
+87,MQ4_Vault,Khalir’s Vault — relic and custody,146637,Li,--- Page 77 ---,0
+88,MQ4_Vault,Khalir’s Vault — relic and custody,147794,Li,“Do you like it?”,0
+89,MQ4_Vault,Khalir’s Vault — relic and custody,148044,Li,“Enurian forged. Did you know their whole economy was centered around mining a single deposit of ore? You can guess how that ended up.”,0
+90,MQ4_Vault,Khalir’s Vault — relic and custody,379208,,“It sounds like Erik is taking us to meet the Imperator. His mother.”,0
+91,MQ4_Vault,Khalir’s Vault — relic and custody,379328,Darius,"“Saghir, you and Jun seem to know the most about how Hasra works. Do you know what we’re walking into? All my mother told me was that if we lived, we’d get a choice. Money or school, like Darius said.”",0
+92,MQ4_Vault,Khalir’s Vault — relic and custody,492566,,"“Friend Ashianna, might you explain what an archetype is and what picking one means?”",0
+93,MQ4_Vault,Khalir’s Vault — relic and custody,520119,Ephram,“I’m Professor Jera.”,0
+94,MQ4_Vault,Khalir’s Vault — relic and custody,618866,Saghir,“Will this coin be enough to train the both of us?”,0
+95,MQ4_Vault,Khalir’s Vault — relic and custody,717122,Emelia,“Welcome to the Guild weaponeer.”,0
+96,MQ4_Vault,Khalir’s Vault — relic and custody,772236,,"“We all played a role, but Xal is right. Ephram’s quick thinking and Saghir’s efforts won us that fight. Xal stopped Crispus, but you don’t see him trying to steal credit.”",0
+97,MQ5_Prophecy,Oracles' Offer — price of knowledge,1481276,Saghir,"“You know something of this. Your demonic friends probably know more. Curiosity is my downfall, friend Xal. If we are witnessing the fulﬁllment of some prophecy, I must know.”",0
+98,MQ5_Prophecy,Oracles' Offer — price of knowledge,2583185,Tissa,"“There was no prophecy because if there were, Xal would still be alive. And now he’s gone. Like Nef.”",0
+99,MQ5_Prophecy,Oracles' Offer — price of knowledge,1739889,Ashianna,“We’ve fought Crispus and won. And Erik and won.”,0
+100,MQ5_Prophecy,Oracles' Offer — price of knowledge,3308206,Saghir,"“Friend Xal knows that my greatest wish is to become an archmage. Yet my needs are second to prophecy. To saving my people. But if we all
+--- Page 497 ---
+desire this…then I will do all in my power to cloak our approach.”",0
+101,MQ5_Prophecy,Oracles' Offer — price of knowledge,3815893,Erik,"“If Erik turns on me, well, I am confident I can defend myself. But I also think he’ll make a fine leader. And as for corralling eradicators? Erik asked me to lead him to the lake, and I did. Erik is an eradicator himself. Stained in the same way we are. He can’t very well demand one fate for us and a separate for himself. That’s mutual destruction. The people would pull him down. Enestius would seize the throne. I fully expect Erik to bring eradicators to Valys if he defects.”",0
+102,MQ5_Prophecy,Oracles' Offer — price of knowledge,5659357,Liloth,"“I know a fine druid, one of my people, who is incredibly gifted at healing. I believe that Ephram is fated to be this Tree’s guardian and that he can help it recover more swiftly than any other. He is small, and weak, and timid, and he will need your protection. But you will not have to do it alone. “The Fomori are a race of giants, a race birthed by the mother, who planted this Tree. The mother has been reborn and is searching for a ward. It was for her that we stole the sapling so recently.”",0
+103,MQ5_Prophecy,Oracles' Offer — price of knowledge,963163,,"“That was Ephram. I am certain of it. Running afoul of an elemental, perhaps. We cannot go back. Put it from your mind. His fate is his own.”",0
+104,MQ5_Prophecy,Oracles' Offer — price of knowledge,1385985,,"“I will also choose pierce all veils, master, for the same reason as Xal, but also because divination is the greater path I most wish to study. Prophecy is highly prized in Gateway, where I am from.”",0
+105,MQ5_Prophecy,Oracles' Offer — price of knowledge,1481103,Saghir,“What are you suggesting?”,0
+106,MQ5_Prophecy,Oracles' Offer — price of knowledge,1481178,Saghir,“That you are a reincarnated demon god?”,0
+107,MQ5_Prophecy,Oracles' Offer — price of knowledge,1739708,Ashianna,--- Page 432 ---,0
+108,MQ5_Prophecy,Oracles' Offer — price of knowledge,1739809,Ashianna,“What are the other quints like?”,0
+109,MQ5_Prophecy,Oracles' Offer — price of knowledge,2514899,Saghir,“Anyone want to back out?”,0
+110,MQ5_Prophecy,Oracles' Offer — price of knowledge,2514938,Saghir,“Let’s be oﬀ then.”,0
+111,MQ5_Prophecy,Oracles' Offer — price of knowledge,2515067,Saghir,--- Page 933 ---,0
+112,MQ5_Prophecy,Oracles' Offer — price of knowledge,2515159,Saghir,“These are free?”,0
+113,MQ5_Prophecy,Oracles' Offer — price of knowledge,2583129,Tissa,"“She lied to me,”",0
+114,MQ5_Prophecy,Oracles' Offer — price of knowledge,2950559,Xalegos,"“We have come to aid my friend,”",0
+115,MQ5_Prophecy,Oracles' Offer — price of knowledge,2952160,,"“I believe he may be important to the future of our people. I do not know this Xal, nor do I care about his fate. But Saghir cares, and so I will aid him in this.”",0
+116,MQ5_Prophecy,Oracles' Offer — price of knowledge,3307951,Saghir,“When we going to eat? Gakk ﬁne eating magic.”,0
+117,MQ5_Prophecy,Oracles' Offer — price of knowledge,3308062,Saghir,"“I hadn’t dared hope for the opportunity to acquire water,”",0
+118,MQ5_Prophecy,Oracles' Offer — price of knowledge,3400675,,"“Xal, of the hand of fate.”",0
+119,MQ5_Prophecy,Oracles' Offer — price of knowledge,3519355,Saghir,"“I will go next,”",0
+120,MQ5_Prophecy,Oracles' Offer — price of knowledge,3519509,Saghir,“I mean if there is a tomb for me.”,0
+121,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2088576,Ducius,"“The one you should fear is called Ducius. He will win the tourney. He will also win any tactical battles we participate in. One day, he will likely control all the Garulan fortunes.”",0
+122,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2129668,Erik,"“I don’t suggest, Ducius. I speak directly.”",0
+123,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2446399,Erik,"“Soﬁa! Take your dec and secure the dims along the tall walls there. Clear the Fomori, but don’t take any risks. Ashianna, watch her position. Be prepared to send reinforcements if she gets into trouble.”",0
+124,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,750023,Ashianna,"“Anyone not away on assignment is here, and friends and family are permitted from the city to watch. Erik’s family isn’t there, but some of the others might want to watch their children pummel us into paste.”",0
+125,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,904626,Saghir,“This is what Saghir feels like.”,0
+126,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,1694820,Ashianna,"“And is it as lethal as walking around seems to be? Erik killed that man, and no one blinked twice. Will he face some sort of charges?”",0
+127,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,1694986,Ashianna,"“That boy, not a man, picked a ﬁght. He deserved what he got. His parents and siblings will hate Erik, but they already hated Erik. They hate everything Hasran.”",0
+128,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,1739889,Ashianna,“We’ve fought Crispus and won. And Erik and won.”,0
+129,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,1906978,Li,"“And I get it now. Erik will eventually take the crown, and when he does, will need to make changes that Crispus or his father might oppose. That about the size of it?”",0
+130,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,1913286,Saghir,"“See you on the sands, Xal,”",0
+131,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2034712,Li,"“I feel the arena does not know Erik, then,”",0
+132,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,885300,Ashianna,"“Each pair of students will be given a match. The winner stays in the seat until they lose unless they have a desire to challenge another winner. The losers play until they’ve played everyone, so long after the rest of us lowly mortal players know Li will win, we’ll still have to take our punishment from Erik and Darius. All you have to do is win one game for passing marks though.”",0
+133,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,961564,Ashianna,“Ephram?”,0
+134,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2034489,Saghir,“that the battle is as close to equal as it can get. The arena believes we are about to witness a momentous battle of incredible skill and does not believe it can add to the spectacle. Erik and Crispus are on equal terms.”,0
+135,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2160265,Erik,“What are your orders?”,0
+136,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2551398,Erik,"“I’m oﬀicially promoting you to my second. If I retain the rank of Praetor, you will be elevated to legatus. In today’s combat, you will take charge of the second half of our forces. For now, lead everyone out and get them mounted up, then send a missive to your father requesting his assistance. Xal, please remain behind. I’d like your thoughts on our assault strategy.”",0
+137,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,2555475,Ashianna,"“Li, would you mind sending a missive to your mother to ask how far out she is? Invite her to a war council with Etrian and me, please. As politely as you can. Please, let her know she will have an equal voice and that we are eternally grateful for Calmoran assistance. And that her daughter has acquitted herself with honor.”",0
+138,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,463486,,"“Ashianna, Gavius, this is Xal, and his little friend is Saghir. They’re joining our house. They’re in your year, too, Ashianna.”",0
+139,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,492290,,“Ashianna is going.”,0
+140,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,492566,,"“Friend Ashianna, might you explain what an archetype is and what picking one means?”",0
+141,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,528194,,"“What do you think you’re doing? You are literally sitting with the enemy. This isn’t some general ed class, like Spellcasting. This is Catalysts. We sit with our temple. Get over here.”",0
+142,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,571049,Olivantia,--- Page 317 ---,0
+143,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,652579,,“The three of us can study together if you want. We should probably sit with Ashianna and Li at lunch.”,0
+144,MQ6_Confront,Confrontation — Ducius/Voss/Ashianna stakes,749854,Ashianna,“We are to entertain them?”,0

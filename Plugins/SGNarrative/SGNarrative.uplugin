@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "SGNarrative",
+  "Description": "Narrative runtime scaffold for Shattered Gods: Catalyst Rising.",
+  "Category": "Gameplay",
+  "CreatedBy": "Shattered Gods",
+  "EnabledByDefault": true,
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Modules": [
+    {
+      "Name": "SGNarrative",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

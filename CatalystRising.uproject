@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.6",
+  "Category": "Games",
+  "Description": "Shattered Gods: Catalyst Rising (starter scaffold)",
+  "Modules": [
+    {
+      "Name": "CatalystRising",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "SGNarrative",
+      "Enabled": true
+    }
+  ]
+}
