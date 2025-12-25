@@ -1,0 +1,83 @@
+Name,quest,hub,id,type,speaker,title,emotion,anim,line_or_prompt,option_key,option_text,checks,conditions,set_flags,grants,next
+GA_001_LINE,Glow Audit,Hasra Reactor,GA_001,DIALOGUE,Inspector Rhal,,urgent,,You're Xal. Good. I filed an anomaly report—someone erased it. Help me prove I'm not mad.,,,[],[],"[""ga_briefed""]",{},GA_002
+GA_002_DECISION,Glow Audit,Hasra Reactor,GA_002,DECISION,,,,,How do you respond to Rhal's request?,,,[],[],[],{},
+GA_002_OPT_A,Glow Audit,Hasra Reactor,GA_002,DECISION_OPTION,,,,,How do you respond to Rhal's request?,A,I'll help. But we do this clean.,[],[],"[""ga_help_clean""]","{""rep"": {""rep_palace"": ""+1""}}",GA_003
+GA_002_OPT_B,Glow Audit,Hasra Reactor,GA_002,DECISION_OPTION,,,,,How do you respond to Rhal's request?,B,I'll help—no promises about 'clean.',[],[],"[""ga_help_dirty""]","{""rep"": {""rep_underbelly"": ""+1""}}",GA_003
+GA_002_OPT_C,Glow Audit,Hasra Reactor,GA_002,DECISION_OPTION,,,,,How do you respond to Rhal's request?,C,Not my fight.,[],[],"[""ga_refused""]",{},GA_DENY
+GA_003_LINE,Glow Audit,Hasra Reactor,GA_003,DIALOGUE,Saghir,,wry,,Anomalies do love company. I'll bring the lenses. And a fireproof prayer.,,,[],[],[],{},GA_004
+GA_004_LINE,Glow Audit,Hasra Reactor,GA_004,DIALOGUE,Ashianna Keth,,neutral,,"If you're already breaking rules, break the right ones. I can ghost you past Sublevel seals.",,,[],"[""ga_help_dirty""]",[],{},GA_005
+GA_005_DECISION,Glow Audit,Hasra Reactor,GA_005,DECISION,,,,,Approach the Sublevel archives?,,,[],[],[],{},
+GA_005_OPT_A,Glow Audit,Hasra Reactor,GA_005,DECISION_OPTION,,,,,Approach the Sublevel archives?,A,Authorized route with forged pass (skill: Etiquette or Clearance ≥1).,"[""academy_clearance>=1""]",[],[],{},GA_006_AUTH
+GA_005_OPT_B,Glow Audit,Hasra Reactor,GA_005,DECISION_OPTION,,,,,Approach the Sublevel archives?,B,Ghost route with Ashianna (risk alarms).,[],[],"[""ga_ghost_route""]",{},GA_006_GHOST
+GA_006_AUTH_LINE,Glow Audit,Hasra Reactor,GA_006_AUTH,DIALOGUE,Gate Warden,,stern,,Pass your credentials. Don't stare at the glow; it stares back.,,,[],[],[],{},GA_007
+GA_006_GHOST_LINE,Glow Audit,Hasra Reactor,GA_006_GHOST,DIALOGUE,Saghir,,urgent,,Tripwire glyph. Three breaths. Two if you're feeling immortal.,,,[],[],[],{},GA_007
+GA_007_DECISION,Glow Audit,Hasra Reactor,GA_007,DECISION,,,,,You find the erased report and a second file implicating a palace advisor. Do you…,,,[],[],[],{},
+GA_007_OPT_A,Glow Audit,Hasra Reactor,GA_007,DECISION_OPTION,,,,,You find the erased report and a second file implicating a palace advisor. Do you…,A,Restore and publish both.,[],[],"[""ga_published_full""]","{""rep"": {""rep_palace"": ""-2"", ""rep_city"": ""+1""}}",GA_008
+GA_007_OPT_B,Glow Audit,Hasra Reactor,GA_007,DECISION_OPTION,,,,,You find the erased report and a second file implicating a palace advisor. Do you…,B,Restore Rhal’s report only.,[],[],"[""ga_published_partial""]","{""rep"": {""rep_palace"": ""+1""}}",GA_008
+GA_007_OPT_C,Glow Audit,Hasra Reactor,GA_007,DECISION_OPTION,,,,,You find the erased report and a second file implicating a palace advisor. Do you…,C,Sell the advisor file to the underbelly.,[],[],"[""ga_sold_file""]","{""rep"": {""rep_underbelly"": ""+2""}, ""item"": ""coin_purse_heavy""}",GA_008
+GA_008_LINE,Glow Audit,Hasra Reactor,GA_008,DIALOGUE,Inspector Rhal,,hopeful,,Either I'm vindicated or I'm out of a job. Thank you for letting truth breathe.,,,[],[],[],"{""xp"": 500}",GA_009
+GA_009_LINE,Glow Audit,Hasra Reactor,GA_009,DIALOGUE,Tissa,,reflective,,Truth hurts the right people and the wrong ones. We'll treat what we can.,,,[],"[""ga_published_full""]",[],{},END_GA
+GA_DENY_LINE,Glow Audit,Hasra Reactor,GA_DENY,DIALOGUE,Saghir,,disappointed,,We don't have to save everyone. But we could have saved this one.,,,[],[],[],{},END_GA
+GA_OC_Saghir_LINE,Glow Audit,Hasra Reactor,GA_OC_Saghir,OPTIONAL_CONVO,,On whistleblowing,,,,,,[],"[""ga_briefed""]",[],{},
+GA_OC1_LINE,Glow Audit,Hasra Reactor,GA_OC1,DIALOGUE,Saghir,,wry,,I once reported myself for unsafe experiments. Easiest ethics committee I ever chaired.,,,[],[],[],{},GA_OC2
+GA_OC2_DECISION,Glow Audit,Hasra Reactor,GA_OC2,DECISION,,,,,Reply to Saghir?,,,[],[],[],{},
+GA_OC2_OPT_A,Glow Audit,Hasra Reactor,GA_OC2,DECISION_OPTION,,,,,Reply to Saghir?,A,Proud of you.,[],[],"[""saghir_praised""]","{""trust"": {""trust_saghir"": ""+1""}}",END
+GA_OC2_OPT_B,Glow Audit,Hasra Reactor,GA_OC2,DECISION_OPTION,,,,,Reply to Saghir?,B,That explains the scorch marks.,[],[],[],"{""trust"": {""trust_saghir"": ""+0""}}",END
+AS_001_LINE,Arena Sting,Hasra Arena,AS_001,DIALOGUE,Arena Medic,,tense,,They're dosing fighters. Help me prove it before the crowd gets a corpse instead of a show.,,,[],[],"[""as_hook""]",{},AS_002
+AS_002_DECISION,Arena Sting,Hasra Arena,AS_002,DECISION,,,,,Gather evidence how?,,,[],[],[],{},
+AS_002_OPT_A,Arena Sting,Hasra Arena,AS_002,DECISION_OPTION,,,,,Gather evidence how?,A,Undercover as trainee (requires arena_rank≥D).,"[""arena_rank>=4""]",[],[],{},AS_003A
+AS_002_OPT_B,Arena Sting,Hasra Arena,AS_002,DECISION_OPTION,,,,,Gather evidence how?,B,Bribe a bookie for ledgers.,[],[],[],"{""rep"": {""rep_underbelly"": ""+1""}}",AS_003B
+AS_003A_LINE,Arena Sting,Hasra Arena,AS_003A,DIALOGUE,Macha,,stern,,"You want in, you earn it. First round's honest. The rest—make them honest.",,,[],[],[],{},AS_004
+AS_003B_LINE,Arena Sting,Hasra Arena,AS_003B,DIALOGUE,Desidria Vale,,amused,,Truth has a purse. Pay it and smile for the patrons.,,,[],[],[],{},AS_004
+AS_004_DECISION,Arena Sting,Hasra Arena,AS_004,DECISION,,,,,Expose the fixer publicly or deliver evidence quietly?,,,[],[],[],{},
+AS_004_OPT_A,Arena Sting,Hasra Arena,AS_004,DECISION_OPTION,,,,,Expose the fixer publicly or deliver evidence quietly?,A,"Publicly, during the main card.",[],[],"[""as_public_expose""]","{""rep"": {""rep_arena"": ""+2"", ""rep_underbelly"": ""-2""}}",AS_005
+AS_004_OPT_B,Arena Sting,Hasra Arena,AS_004,DECISION_OPTION,,,,,Expose the fixer publicly or deliver evidence quietly?,B,"Quietly, to Desidria and the Medic.",[],[],"[""as_quiet_expose""]","{""rep"": {""rep_arena"": ""+1""}, ""item"": ""arena_pass_vip""}",AS_005
+AS_005_LINE,Arena Sting,Hasra Arena,AS_005,DIALOGUE,Erik,,proud,,Fights are clean tonight. Keep them that way.,,,[],"[""as_public_expose""]",[],"{""xp"": 450}",END_AS
+SM_001_LINE,Smuggler's Mirror,Docks & Warehouses,SM_001,DIALOGUE,Vessa,,playful,,Cargo’s clean. Paperwork’s clean. We aren’t. Need a hero who can count faster than the guards.,,,[],[],"[""sm_hook""]",{},SM_002
+SM_002_DECISION,Smuggler's Mirror,Docks & Warehouses,SM_002,DECISION,,,,,Choose a partner for the job.,,,[],[],[],{},
+SM_002_OPT_A,Smuggler's Mirror,Docks & Warehouses,SM_002,DECISION_OPTION,,,,,Choose a partner for the job.,A,Lorin (safer route).,[],[],"[""sm_lorin""]",{},SM_003
+SM_002_OPT_B,Smuggler's Mirror,Docks & Warehouses,SM_002,DECISION_OPTION,,,,,Choose a partner for the job.,B,"Vessa (riskier, higher reward).",[],[],"[""sm_vessa""]",{},SM_003
+SM_003_LINE,Smuggler's Mirror,Docks & Warehouses,SM_003,DIALOGUE,Saghir,,wry,,"Decoys left, decency right. Which road did we take again?",,,[],[],[],{},SM_004
+SM_004_DECISION,Smuggler's Mirror,Docks & Warehouses,SM_004,DECISION,,,,,Guard checkpoint ahead—what’s your play?,,,[],[],[],{},
+SM_004_OPT_A,Smuggler's Mirror,Docks & Warehouses,SM_004,DECISION_OPTION,,,,,Guard checkpoint ahead—what’s your play?,A,Bribe (coins −).,[],[],"[""sm_bribe""]",{},SM_005
+SM_004_OPT_B,Smuggler's Mirror,Docks & Warehouses,SM_004,DECISION_OPTION,,,,,Guard checkpoint ahead—what’s your play?,B,Forge manifests (skill: Documents).,"[""academy_clearance>=1""]",[],[],{},SM_005
+SM_004_OPT_C,Smuggler's Mirror,Docks & Warehouses,SM_004,DECISION_OPTION,,,,,Guard checkpoint ahead—what’s your play?,C,Fight through (rep_guard −).,[],[],"[""sm_fight""]",{},SM_005
+SM_005_LINE,Smuggler's Mirror,Docks & Warehouses,SM_005,DIALOGUE,Lorin,,relieved,,Still breathing? Then we're rich or late. Maybe both.,,,[],[],[],"{""xp"": 350, ""rep"": {""rep_underbelly"": ""+1""}}",END_SM
+LK_001_LINE,Ledger Knot,Enestius Trade House,LK_001,DIALOGUE,Guild Factor,,anxious,,Money vanished without moving. Find the ghost in my books and I’ll owe you more than coin.,,,[],[],"[""lk_hook""]",{},LK_002
+LK_002_DECISION,Ledger Knot,Enestius Trade House,LK_002,DECISION,,,,,Lead to pursue first?,,,[],[],[],{},
+LK_002_OPT_A,Ledger Knot,Enestius Trade House,LK_002,DECISION_OPTION,,,,,Lead to pursue first?,A,Warehouse audit (logic puzzle).,[],[],[],{},LK_003A
+LK_002_OPT_B,Ledger Knot,Enestius Trade House,LK_002,DECISION_OPTION,,,,,Lead to pursue first?,B,Night heist into the tally office.,[],[],[],{},LK_003B
+LK_003A_LINE,Ledger Knot,Enestius Trade House,LK_003A,DIALOGUE,Ephram,,thoughtful,,Numbers lie politely. Let’s ask them rude questions.,,,[],[],[],{},LK_004
+LK_003B_LINE,Ledger Knot,Enestius Trade House,LK_003B,DIALOGUE,Tissa,,firm,,No one gets hurt. That’s not a request.,,,[],[],[],{},LK_004
+LK_004_DECISION,Ledger Knot,Enestius Trade House,LK_004,DECISION,,,,,The culprit is the factor’s nephew. Consequence?,,,[],[],[],{},
+LK_004_OPT_A,Ledger Knot,Enestius Trade House,LK_004,DECISION_OPTION,,,,,The culprit is the factor’s nephew. Consequence?,A,"Expose publicly (guild rep+, family wrath).",[],[],"[""lk_public""]","{""rep"": {""rep_guild"": ""+2""}}",LK_005
+LK_004_OPT_B,Ledger Knot,Enestius Trade House,LK_004,DECISION_OPTION,,,,,The culprit is the factor’s nephew. Consequence?,B,"Quiet restitution (palace rep+, underbelly rep−).",[],[],"[""lk_quiet""]","{""rep"": {""rep_palace"": ""+1"", ""rep_underbelly"": ""-1""}}",LK_005
+LK_005_LINE,Ledger Knot,Enestius Trade House,LK_005,DIALOGUE,Guild Factor,,grateful,,Justice with receipts. My favorite kind.,,,[],[],[],"{""xp"": 400, ""item"": ""promissory_guild""}",END_LK
+OO_001_LINE,Oracles' Offer,Riverside Shrine,OO_001,DIALOGUE,Oracle (Shore),,serene,,"Ask, and pay. Pay, and ask.",,,[],[],"[""oo_seen""]",{},OO_002
+OO_002_DECISION,Oracles' Offer,Riverside Shrine,OO_002,DECISION,,,,,What do you trade for prophecy?,,,[],[],[],{},
+OO_002_OPT_A,Oracles' Offer,Riverside Shrine,OO_002,DECISION_OPTION,,,,,What do you trade for prophecy?,A,Coin—safe but shallow.,[],[],[],"{""item"": ""coin_purse_light""}",OO_003A
+OO_002_OPT_B,Oracles' Offer,Riverside Shrine,OO_002,DECISION_OPTION,,,,,What do you trade for prophecy?,B,"Memory—deeper insight, lose a personal scene.",[],[],"[""oo_memory_paid""]",{},OO_003B
+OO_002_OPT_C,Oracles' Offer,Riverside Shrine,OO_002,DECISION_OPTION,,,,,What do you trade for prophecy?,C,Blood—dangerous boon (Tissa disapproves).,[],[],"[""oo_blood_paid""]","{""rep"": {""rep_temples"": ""-1""}}",OO_003C
+OO_003B_LINE,Oracles' Offer,Riverside Shrine,OO_003B,DIALOGUE,Oracle (Deep),,distant,,You will forget a kindness you were given. The debt will still find you.,,,[],[],[],{},END_OO
+OO_003C_LINE,Oracles' Offer,Riverside Shrine,OO_003C,DIALOGUE,Saghir,,angry,,"We bargain with minds, not marrow! Next time, consult the team before bleeding!",,,[],[],[],"{""trust"": {""trust_saghir"": ""-1""}}",END_OO
+PP_001_LINE,Palace Petition,Palace Antechamber,PP_001,DIALOGUE,Princess Li,,contained,,"If the city is to live, its laws must breathe. Will you be my lungs in places I cannot go?",,,[],[],"[""pp_hook""]",{},PP_002
+PP_002_DECISION,Palace Petition,Palace Antechamber,PP_002,DECISION,,,,,Secure an audience for a refugee guild. Approach?,,,[],[],[],{},
+PP_002_OPT_A,Palace Petition,Palace Antechamber,PP_002,DECISION_OPTION,,,,,Secure an audience for a refugee guild. Approach?,A,Etiquette route (skill: Etiquette).,[],[],[],{},PP_003A
+PP_002_OPT_B,Palace Petition,Palace Antechamber,PP_002,DECISION_OPTION,,,,,Secure an audience for a refugee guild. Approach?,B,Leverage underbelly favors.,[],[],[],"{""rep"": {""rep_underbelly"": ""+1""}}",PP_003B
+PP_003A_LINE,Palace Petition,Palace Antechamber,PP_003A,DIALOGUE,Lucretia Aven,,polite,,Petitions are doors. Knock with the correct rhythm.,,,[],[],[],"{""rep"": {""rep_palace"": ""+1""}}",END_PP
+PP_003B_LINE,Palace Petition,Palace Antechamber,PP_003B,DIALOGUE,Ducius Var,,stern,,"You bring alley favors to a marble floor. Wipe your boots, then speak.",,,[],[],[],{},END_PP
+KV_001_LINE,Khalir's Vault,Archive → Desert Ruin,KV_001,DIALOGUE,Khalir the Scribe,,absent,,"I misfiled a king. He didn’t mind, but the wards do. Help me find him again.",,,[],[],"[""kv_hook""]",{},KV_002
+KV_002_DECISION,Khalir's Vault,Archive → Desert Ruin,KV_002,DECISION,,,,,Who carries the key‑sigil?,,,[],[],[],{},
+KV_002_OPT_A,Khalir's Vault,Archive → Desert Ruin,KV_002,DECISION_OPTION,,,,,Who carries the key‑sigil?,A,Xal (risk demon resonance).,[],[],"[""kv_xal_carry""]",{},KV_003
+KV_002_OPT_B,Khalir's Vault,Archive → Desert Ruin,KV_002,DECISION_OPTION,,,,,Who carries the key‑sigil?,B,"Saghir (safer, but slow channel).",[],[],"[""kv_saghir_carry""]",{},KV_003
+KV_003_LINE,Khalir's Vault,Archive → Desert Ruin,KV_003,DIALOGUE,Ephram,,cautious,,Relics are questions that survived the fire. Answer gently.,,,[],[],[],{},KV_004
+KV_004_DECISION,Khalir's Vault,Archive → Desert Ruin,KV_004,DECISION,,,,,Recovered relic: hand it to…,,,[],[],[],{},
+KV_004_OPT_A,Khalir's Vault,Archive → Desert Ruin,KV_004,DECISION_OPTION,,,,,Recovered relic: hand it to…,A,"Academy (knowledge +, secrecy −).",[],[],"[""kv_to_academy""]","{""rep"": {""rep_academy"": ""+2"", ""rep_underbelly"": ""-1""}}",KV_005
+KV_004_OPT_B,Khalir's Vault,Archive → Desert Ruin,KV_004,DECISION_OPTION,,,,,Recovered relic: hand it to…,B,Princess Li (public trust +).,[],[],"[""kv_to_palace""]","{""rep"": {""rep_palace"": ""+2""}}",KV_005
+KV_004_OPT_C,Khalir's Vault,Archive → Desert Ruin,KV_004,DECISION_OPTION,,,,,Recovered relic: hand it to…,C,Underbelly (short‑term coin).,[],[],"[""kv_to_underbelly""]","{""item"": ""coin_purse_heavy"", ""rep"": {""rep_underbelly"": ""+2"", ""rep_palace"": ""-2""}}",KV_005
+KV_005_LINE,Khalir's Vault,Archive → Desert Ruin,KV_005,DIALOGUE,Saghir,,reflective,,Every relic is a promise with amnesia. Let’s write the memory down before it forgets us again.,,,[],[],[],"{""xp"": 500}",END_KV
+OCC_Xal_Saghir_01_LINE,Companion Ambient,Field,OCC_Xal_Saghir_01,OPTIONAL_CONVO,,Risk and Consent,,,,,,[],"[""oo_blood_paid""]",[],{},
+OCC_XS_1_LINE,Companion Ambient,Field,OCC_XS_1,DIALOGUE,Saghir,,upset,,"You bled without a word. I am on your shoulder, not beneath your boots.",,,[],[],[],{},OCC_XS_2
+OCC_XS_2_DECISION,Companion Ambient,Field,OCC_XS_2,DECISION,,,,,Respond to Saghir,,,[],[],[],{},
+OCC_XS_2_OPT_A,Companion Ambient,Field,OCC_XS_2,DECISION_OPTION,,,,,Respond to Saghir,A,You're right. It won't happen again.,[],[],[],"{""trust"": {""trust_saghir"": ""+2""}}",END
+OCC_XS_2_OPT_B,Companion Ambient,Field,OCC_XS_2,DECISION_OPTION,,,,,Respond to Saghir,B,I make the calls in the moment. Live with it.,[],[],[],"{""trust"": {""trust_saghir"": ""-1""}}",END

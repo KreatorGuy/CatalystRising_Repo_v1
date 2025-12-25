@@ -1,0 +1,935 @@
+{
+  "generated_from": "Catalyst_Rising_Branch_Quest_Outlines_Expanded.docx",
+  "quests": [
+    {
+      "code": "A1",
+      "title": "The Call",
+      "overview": "Conscription day in the Dims. Xal publicly defines his stance toward the Empire.",
+      "preconditions": "Start of game; tutorial movement complete; player has basic interact/stealth.",
+      "raw": [
+        "Overview: Conscription day in the Dims. Xal publicly defines his stance toward the Empire.",
+        "Preconditions: Start of game; tutorial movement complete; player has basic interact/stealth.",
+        "Branches",
+        "• Obey the Call",
+        "Objectives:",
+        "– Report to the Hasran officer before curfew.",
+        "– Maintain order in the line without escalation.",
+        "– Submit to branding inspection; keep calm during the heat spike.",
+        "– Escort conscripts to barracks yard with minimal disruption.",
+        "Encounters: Crowd-control corridor with shove/taunt NPCs (tutorial: shove break, dodge shove).; Inspection QTE (steady-hand; timing window widens on Story difficulty).",
+        "Variable Checks / Flags: Morality −1; Reputation.Hasran +1; Reputation.Outcasts −1.; Carryover: C/O:Obedient.",
+        "Fail-forward: If QTE fails or a scuffle starts, guards subdue the disturbance; you’re disciplined but proceed to Barracks with a 10‑min ‘Fatigue’ debuff (stamina regen −10%).",
+        "• Resist publicly",
+        "Objectives:",
+        "– Climb to the scaffold and deliver a defiant address.",
+        "– Evade Hasran patrol sweep using soft stealth and rooftops.",
+        "– Reach the barracks yard without capture.",
+        "Encounters: Short chase across two patrol choke points; optional alley stealth tutorial (crouch, line-of-sight cones).; Crowd reaction mini-system (boos/cheers) affected by timing beats.",
+        "Variable Checks / Flags: Morality +1; Reputation.Hasran −1; Reputation.Outcasts +1; SaghirLoyalty +1 (latent sympathy).; Carryover: C/O:Defiant.",
+        "Fail-forward: If captured, you’re dragged to Barracks anyway; Outcasts reputation still increases via rumor spread.",
+        "Rejoin/Convergence: Converges at Barracks intro → Drills.",
+        "Rewards/Flags: XP: small; Materials: ration set. Flags seeded: Obedient or Defiant tone.",
+        "Systems/Notes: Crowd VO and tutorial signage swap based on this branch."
+      ],
+      "branches": [
+        {
+          "name": "Obey the Call",
+          "objectives": [
+            "Report to the Hasran officer before curfew.",
+            "Maintain order in the line without escalation.",
+            "Submit to branding inspection; keep calm during the heat spike.",
+            "Escort conscripts to barracks yard with minimal disruption."
+          ],
+          "encounters": "Crowd-control corridor with shove/taunt NPCs (tutorial: shove break, dodge shove).; Inspection QTE (steady-hand; timing window widens on Story difficulty).",
+          "variables": "Morality −1; Reputation.Hasran +1; Reputation.Outcasts −1.; Carryover: C/O:Obedient.",
+          "fail_forward": "If QTE fails or a scuffle starts, guards subdue the disturbance; you’re disciplined but proceed to Barracks with a 10‑min ‘Fatigue’ debuff (stamina regen −10%).",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Report to the Hasran officer before curfew.",
+            "– Maintain order in the line without escalation.",
+            "– Submit to branding inspection; keep calm during the heat spike.",
+            "– Escort conscripts to barracks yard with minimal disruption.",
+            "Encounters: Crowd-control corridor with shove/taunt NPCs (tutorial: shove break, dodge shove).; Inspection QTE (steady-hand; timing window widens on Story difficulty).",
+            "Variable Checks / Flags: Morality −1; Reputation.Hasran +1; Reputation.Outcasts −1.; Carryover: C/O:Obedient.",
+            "Fail-forward: If QTE fails or a scuffle starts, guards subdue the disturbance; you’re disciplined but proceed to Barracks with a 10‑min ‘Fatigue’ debuff (stamina regen −10%)."
+          ]
+        },
+        {
+          "name": "Resist publicly",
+          "objectives": [
+            "Climb to the scaffold and deliver a defiant address.",
+            "Evade Hasran patrol sweep using soft stealth and rooftops.",
+            "Reach the barracks yard without capture."
+          ],
+          "encounters": "Short chase across two patrol choke points; optional alley stealth tutorial (crouch, line-of-sight cones).; Crowd reaction mini-system (boos/cheers) affected by timing beats.",
+          "variables": "Morality +1; Reputation.Hasran −1; Reputation.Outcasts +1; SaghirLoyalty +1 (latent sympathy).; Carryover: C/O:Defiant.",
+          "fail_forward": "If captured, you’re dragged to Barracks anyway; Outcasts reputation still increases via rumor spread.",
+          "rejoin": "Converges at Barracks intro → Drills.",
+          "rewards": "XP: small; Materials: ration set. Flags seeded: Obedient or Defiant tone.",
+          "notes": "Crowd VO and tutorial signage swap based on this branch.",
+          "raw": [
+            "Objectives:",
+            "– Climb to the scaffold and deliver a defiant address.",
+            "– Evade Hasran patrol sweep using soft stealth and rooftops.",
+            "– Reach the barracks yard without capture.",
+            "Encounters: Short chase across two patrol choke points; optional alley stealth tutorial (crouch, line-of-sight cones).; Crowd reaction mini-system (boos/cheers) affected by timing beats.",
+            "Variable Checks / Flags: Morality +1; Reputation.Hasran −1; Reputation.Outcasts +1; SaghirLoyalty +1 (latent sympathy).; Carryover: C/O:Defiant.",
+            "Fail-forward: If captured, you’re dragged to Barracks anyway; Outcasts reputation still increases via rumor spread.",
+            "Rejoin/Convergence: Converges at Barracks intro → Drills.",
+            "Rewards/Flags: XP: small; Materials: ration set. Flags seeded: Obedient or Defiant tone.",
+            "Systems/Notes: Crowd VO and tutorial signage swap based on this branch."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "A2",
+      "title": "Saghir’s Rescue",
+      "overview": "A rat‑blood mage is marked for execution. Do you intervene or obey?",
+      "preconditions": "After the ‘Baptism by Fire’ skirmish; player has lock-on/dodge basics.",
+      "raw": [
+        "Overview: A rat‑blood mage is marked for execution. Do you intervene or obey?",
+        "Preconditions: After the ‘Baptism by Fire’ skirmish; player has lock-on/dodge basics.",
+        "Branches",
+        "• Rescue Saghir",
+        "Objectives:",
+        "– Create a distraction or pickpocket keys (player choice).",
+        "– Break the execution chain with a Catalyst spark (timed input).",
+        "– Escape the square with Saghir through side alleys to a safe shack.",
+        "Encounters: Mini-boss: Hasran Lieutenant (shield timing/parry tutorial).; Escape path with two skill-based shortcuts (parkour ladders / narrow beams).",
+        "Variable Checks / Flags: Morality +1; SaghirLoyalty +20; Reputation.Hasran −1; Reputation.Outcasts +1.; Unlock: Saghir tertiary kit immediately (Glyph Snap, Ward Pocket baseline).; Carryover: C/O:SaghirEarlyJoin.",
+        "Fail-forward: If downed by the Lieutenant, a bystander ‘trip’ triggers a fumble cutaway—escape continues; SaghirLoyalty +10 instead of +20.",
+        "• Obey the order",
+        "Objectives:",
+        "– Stand down during the execution protocol.",
+        "– Assist with crowd control to prevent a riot (dialogue timing checks).",
+        "Encounters: Crowd pacification mini-game (callouts, posture, restraint vs force).",
+        "Variable Checks / Flags: Morality −1; SaghirLoyalty −5; Reputation.Hasran +1.; Saghir joins later at the Academy with reduced early kit access.; Carryover: C/O:SaghirDelayedJoin.",
+        "Fail-forward: If a riot sparks, guards punish the crowd; you still reach Tribunal; Hasran +2 then −1 (confused orders).",
+        "Rejoin/Convergence: Both converge at Tribunal → Arena.",
+        "Rewards/Flags: XP: medium; Unlock: Saghir kit (timing varies).",
+        "Systems/Notes: Banter density increases if Saghir joins early."
+      ],
+      "branches": [
+        {
+          "name": "Rescue Saghir",
+          "objectives": [
+            "Create a distraction or pickpocket keys (player choice).",
+            "Break the execution chain with a Catalyst spark (timed input).",
+            "Escape the square with Saghir through side alleys to a safe shack."
+          ],
+          "encounters": "Mini-boss: Hasran Lieutenant (shield timing/parry tutorial).; Escape path with two skill-based shortcuts (parkour ladders / narrow beams).",
+          "variables": "Morality +1; SaghirLoyalty +20; Reputation.Hasran −1; Reputation.Outcasts +1.; Unlock: Saghir tertiary kit immediately (Glyph Snap, Ward Pocket baseline).; Carryover: C/O:SaghirEarlyJoin.",
+          "fail_forward": "If downed by the Lieutenant, a bystander ‘trip’ triggers a fumble cutaway—escape continues; SaghirLoyalty +10 instead of +20.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Create a distraction or pickpocket keys (player choice).",
+            "– Break the execution chain with a Catalyst spark (timed input).",
+            "– Escape the square with Saghir through side alleys to a safe shack.",
+            "Encounters: Mini-boss: Hasran Lieutenant (shield timing/parry tutorial).; Escape path with two skill-based shortcuts (parkour ladders / narrow beams).",
+            "Variable Checks / Flags: Morality +1; SaghirLoyalty +20; Reputation.Hasran −1; Reputation.Outcasts +1.; Unlock: Saghir tertiary kit immediately (Glyph Snap, Ward Pocket baseline).; Carryover: C/O:SaghirEarlyJoin.",
+            "Fail-forward: If downed by the Lieutenant, a bystander ‘trip’ triggers a fumble cutaway—escape continues; SaghirLoyalty +10 instead of +20."
+          ]
+        },
+        {
+          "name": "Obey the order",
+          "objectives": [
+            "Stand down during the execution protocol.",
+            "Assist with crowd control to prevent a riot (dialogue timing checks)."
+          ],
+          "encounters": "Crowd pacification mini-game (callouts, posture, restraint vs force).",
+          "variables": "Morality −1; SaghirLoyalty −5; Reputation.Hasran +1.; Saghir joins later at the Academy with reduced early kit access.; Carryover: C/O:SaghirDelayedJoin.",
+          "fail_forward": "If a riot sparks, guards punish the crowd; you still reach Tribunal; Hasran +2 then −1 (confused orders).",
+          "rejoin": "Both converge at Tribunal → Arena.",
+          "rewards": "XP: medium; Unlock: Saghir kit (timing varies).",
+          "notes": "Banter density increases if Saghir joins early.",
+          "raw": [
+            "Objectives:",
+            "– Stand down during the execution protocol.",
+            "– Assist with crowd control to prevent a riot (dialogue timing checks).",
+            "Encounters: Crowd pacification mini-game (callouts, posture, restraint vs force).",
+            "Variable Checks / Flags: Morality −1; SaghirLoyalty −5; Reputation.Hasran +1.; Saghir joins later at the Academy with reduced early kit access.; Carryover: C/O:SaghirDelayedJoin.",
+            "Fail-forward: If a riot sparks, guards punish the crowd; you still reach Tribunal; Hasran +2 then −1 (confused orders).",
+            "Rejoin/Convergence: Both converge at Tribunal → Arena.",
+            "Rewards/Flags: XP: medium; Unlock: Saghir kit (timing varies).",
+            "Systems/Notes: Banter density increases if Saghir joins early."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TEMPLE_ORDER",
+      "title": "Temple Defense — Order Choice",
+      "overview": "Pick which demigod-linked assault to counter first: Dalanthar (Aegis) or Celeste (Pyre).",
+      "preconditions": "After Q13_TempleRecon; Act III.",
+      "raw": [
+        "Overview: Pick which demigod-linked assault to counter first: Dalanthar (Aegis) or Celeste (Pyre).",
+        "Preconditions: After Q13_TempleRecon; Act III.",
+        "Branches",
+        "• Dalanthar first (Aegis)",
+        "Objectives:",
+        "– Reach outer courtyards; deploy temporary wards at three choke points.",
+        "– Disable four sigil pylons while under shield pressure.",
+        "– Repel Aegis’ spear-guard phalanx; protect ward carriers.",
+        "Encounters: Shield-heavy elites; stagger windows gated by precise parries.; Ward Pocket tutorials; rotating hazard lines from pylon feedback.",
+        "Variable Checks / Flags: Morality +1; Carryover: C/O:Temple_First_Dalanthar.",
+        "Fail-forward: If two pylons overcharge, fallback doors open; Celeste later spawns an additional Pyre elite pack.",
+        "• Celeste first (Pyre)",
+        "Objectives:",
+        "– Escort relic bearers between cloisters.",
+        "– Purge three planar anchors while managing fire lanes.",
+        "– Hold an inner sanctum as Pyre’s vanguard breaches.",
+        "Encounters: Tight corridors with flame sweeps; emphasizes i-frames and short blink.; Relic carrier AI that pauses at safe alcoves; player clears lanes.",
+        "Variable Checks / Flags: CatalystResonance +1; Carryover: C/O:Temple_First_Celeste.",
+        "Fail-forward: If an anchor detonates, evac still succeeds; Dalanthar later gains an extra elite spear-guard during its finale.",
+        "Rejoin/Convergence: Completion of both is required before Q16 Airship Heist; order modifies enemy mixes in the second temple and Siege.",
+        "Rewards/Flags: XP: medium per temple; Materials: ward shards; vendor stock shifts based on collateral.",
+        "Systems/Notes: Ambient sermons and hub gossip change based on first-hit temple."
+      ],
+      "branches": [
+        {
+          "name": "Dalanthar first (Aegis)",
+          "objectives": [
+            "Reach outer courtyards; deploy temporary wards at three choke points.",
+            "Disable four sigil pylons while under shield pressure.",
+            "Repel Aegis’ spear-guard phalanx; protect ward carriers."
+          ],
+          "encounters": "Shield-heavy elites; stagger windows gated by precise parries.; Ward Pocket tutorials; rotating hazard lines from pylon feedback.",
+          "variables": "Morality +1; Carryover: C/O:Temple_First_Dalanthar.",
+          "fail_forward": "If two pylons overcharge, fallback doors open; Celeste later spawns an additional Pyre elite pack.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Reach outer courtyards; deploy temporary wards at three choke points.",
+            "– Disable four sigil pylons while under shield pressure.",
+            "– Repel Aegis’ spear-guard phalanx; protect ward carriers.",
+            "Encounters: Shield-heavy elites; stagger windows gated by precise parries.; Ward Pocket tutorials; rotating hazard lines from pylon feedback.",
+            "Variable Checks / Flags: Morality +1; Carryover: C/O:Temple_First_Dalanthar.",
+            "Fail-forward: If two pylons overcharge, fallback doors open; Celeste later spawns an additional Pyre elite pack."
+          ]
+        },
+        {
+          "name": "Celeste first (Pyre)",
+          "objectives": [
+            "Escort relic bearers between cloisters.",
+            "Purge three planar anchors while managing fire lanes.",
+            "Hold an inner sanctum as Pyre’s vanguard breaches."
+          ],
+          "encounters": "Tight corridors with flame sweeps; emphasizes i-frames and short blink.; Relic carrier AI that pauses at safe alcoves; player clears lanes.",
+          "variables": "CatalystResonance +1; Carryover: C/O:Temple_First_Celeste.",
+          "fail_forward": "If an anchor detonates, evac still succeeds; Dalanthar later gains an extra elite spear-guard during its finale.",
+          "rejoin": "Completion of both is required before Q16 Airship Heist; order modifies enemy mixes in the second temple and Siege.",
+          "rewards": "XP: medium per temple; Materials: ward shards; vendor stock shifts based on collateral.",
+          "notes": "Ambient sermons and hub gossip change based on first-hit temple.",
+          "raw": [
+            "Objectives:",
+            "– Escort relic bearers between cloisters.",
+            "– Purge three planar anchors while managing fire lanes.",
+            "– Hold an inner sanctum as Pyre’s vanguard breaches.",
+            "Encounters: Tight corridors with flame sweeps; emphasizes i-frames and short blink.; Relic carrier AI that pauses at safe alcoves; player clears lanes.",
+            "Variable Checks / Flags: CatalystResonance +1; Carryover: C/O:Temple_First_Celeste.",
+            "Fail-forward: If an anchor detonates, evac still succeeds; Dalanthar later gains an extra elite spear-guard during its finale.",
+            "Rejoin/Convergence: Completion of both is required before Q16 Airship Heist; order modifies enemy mixes in the second temple and Siege.",
+            "Rewards/Flags: XP: medium per temple; Materials: ward shards; vendor stock shifts based on collateral.",
+            "Systems/Notes: Ambient sermons and hub gossip change based on first-hit temple."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Q16",
+      "title": "Spear of Jhordil — Airship Heist",
+      "overview": "Seize the last Elentian battleship to support the Siege with air routes and artillery.",
+      "preconditions": "After both temple defenses complete; Act V opener.",
+      "raw": [
+        "Overview: Seize the last Elentian battleship to support the Siege with air routes and artillery.",
+        "Preconditions: After both temple defenses complete; Act V opener.",
+        "Branches",
+        "• Stealth takeover",
+        "Objectives:",
+        "– Infiltrate via mooring chains; disable alarm bells (timed prompts).",
+        "– Silent takedown crew squads; avoid spotlight arcs.",
+        "– Seize the bridge and lock command with a cipher.",
+        "Encounters: Vertical stealth: mast crossbeams, rope slides, patrol cones.; Bridge duo with awareness link (break line-of-sight to split).",
+        "Variable Checks / Flags: Morality +1; Carryover: C/O:Spear_Stealth.",
+        "Fail-forward: If discovered, escalates to deck skirmish before the bridge; minor loot loss; branch outcome remains ‘Stealth’.",
+        "• Direct assault",
+        "Objectives:",
+        "– Grapple onto the deck; defeat two squad leads and the bosun.",
+        "– Overload the engine room to force surrender; push to bridge.",
+        "– Clear hangar bay to unlock evac corridor bonus later.",
+        "Encounters: Wave combat with knockback hazards; explosives near powder kegs.; Mini-boss pair with alternating windows; bosun rally shout buff.",
+        "Variable Checks / Flags: CatalystResonance +2; Carryover: C/O:Spear_Assault.",
+        "Fail-forward: If engine overload hits red, emergency vent opens; you escape to the bridge with a CR +1 extra surge (exposure).",
+        "Rejoin/Convergence: Both converge at Bridge Control → Siege setup.",
+        "Rewards/Flags: XP: large; Unlocks: airship traversal and Siege objective variants (evac corridors for Stealth, extra ballistae for Assault).",
+        "Systems/Notes: Future hub banners show ‘bloodless coup’ vs ‘stormed decks’ messaging."
+      ],
+      "branches": [
+        {
+          "name": "Stealth takeover",
+          "objectives": [
+            "Infiltrate via mooring chains; disable alarm bells (timed prompts).",
+            "Silent takedown crew squads; avoid spotlight arcs.",
+            "Seize the bridge and lock command with a cipher."
+          ],
+          "encounters": "Vertical stealth: mast crossbeams, rope slides, patrol cones.; Bridge duo with awareness link (break line-of-sight to split).",
+          "variables": "Morality +1; Carryover: C/O:Spear_Stealth.",
+          "fail_forward": "If discovered, escalates to deck skirmish before the bridge; minor loot loss; branch outcome remains ‘Stealth’.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Infiltrate via mooring chains; disable alarm bells (timed prompts).",
+            "– Silent takedown crew squads; avoid spotlight arcs.",
+            "– Seize the bridge and lock command with a cipher.",
+            "Encounters: Vertical stealth: mast crossbeams, rope slides, patrol cones.; Bridge duo with awareness link (break line-of-sight to split).",
+            "Variable Checks / Flags: Morality +1; Carryover: C/O:Spear_Stealth.",
+            "Fail-forward: If discovered, escalates to deck skirmish before the bridge; minor loot loss; branch outcome remains ‘Stealth’."
+          ]
+        },
+        {
+          "name": "Direct assault",
+          "objectives": [
+            "Grapple onto the deck; defeat two squad leads and the bosun.",
+            "Overload the engine room to force surrender; push to bridge.",
+            "Clear hangar bay to unlock evac corridor bonus later."
+          ],
+          "encounters": "Wave combat with knockback hazards; explosives near powder kegs.; Mini-boss pair with alternating windows; bosun rally shout buff.",
+          "variables": "CatalystResonance +2; Carryover: C/O:Spear_Assault.",
+          "fail_forward": "If engine overload hits red, emergency vent opens; you escape to the bridge with a CR +1 extra surge (exposure).",
+          "rejoin": "Both converge at Bridge Control → Siege setup.",
+          "rewards": "XP: large; Unlocks: airship traversal and Siege objective variants (evac corridors for Stealth, extra ballistae for Assault).",
+          "notes": "Future hub banners show ‘bloodless coup’ vs ‘stormed decks’ messaging.",
+          "raw": [
+            "Objectives:",
+            "– Grapple onto the deck; defeat two squad leads and the bosun.",
+            "– Overload the engine room to force surrender; push to bridge.",
+            "– Clear hangar bay to unlock evac corridor bonus later.",
+            "Encounters: Wave combat with knockback hazards; explosives near powder kegs.; Mini-boss pair with alternating windows; bosun rally shout buff.",
+            "Variable Checks / Flags: CatalystResonance +2; Carryover: C/O:Spear_Assault.",
+            "Fail-forward: If engine overload hits red, emergency vent opens; you escape to the bridge with a CR +1 extra surge (exposure).",
+            "Rejoin/Convergence: Both converge at Bridge Control → Siege setup.",
+            "Rewards/Flags: XP: large; Unlocks: airship traversal and Siege objective variants (evac corridors for Stealth, extra ballistae for Assault).",
+            "Systems/Notes: Future hub banners show ‘bloodless coup’ vs ‘stormed decks’ messaging."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Q17",
+      "title": "Spy in the Academy — Macha",
+      "overview": "Expose Macha as a Fomori spy and choose how to leverage her network.",
+      "preconditions": "Act II Academy hub after orientation.",
+      "raw": [
+        "Overview: Expose Macha as a Fomori spy and choose how to leverage her network.",
+        "Preconditions: Act II Academy hub after orientation.",
+        "Branches",
+        "• Flip Macha (double agent)",
+        "Objectives:",
+        "– Confront with partial evidence; offer terms in private.",
+        "– Plant a false lead; test cooperation during a staged tail.",
+        "Encounters: Dialogue timing checks; reputation-gated persuasion options.; Stealth tail in courtyard and scriptorium stacks.",
+        "Variable Checks / Flags: Reputation.Outcasts +1; Carryover: C/O:Macha_Double.",
+        "Fail-forward: If tail is blown, she panics but later provides intel (reduced quality), unlocking a smaller Outcast route.",
+        "• Burn the network",
+        "Objectives:",
+        "– Intercept couriers; raid a message cache in the dorm wing.",
+        "– Publicly denounce; deliver seized intel to Hasran command.",
+        "Encounters: Timed raid with split targets; document scramble mini-game (assemble fragments).",
+        "Variable Checks / Flags: Reputation.Hasran +1; Reputation.Outcasts −1; Carryover: C/O:Macha_Burned.",
+        "Fail-forward: If documents scatter, you recover core leads; Hasran favor persists; Outcasts cool toward you.",
+        "Rejoin/Convergence: Both branches unlock different paths in Outcast Quarter and modify Recon clarity in Act III.",
+        "Rewards/Flags: XP: medium; Faction moves shape patrol heat and vendor pricing.",
+        "Systems/Notes: Later political scenes call back to this choice."
+      ],
+      "branches": [
+        {
+          "name": "Flip Macha (double agent)",
+          "objectives": [
+            "Confront with partial evidence; offer terms in private.",
+            "Plant a false lead; test cooperation during a staged tail."
+          ],
+          "encounters": "Dialogue timing checks; reputation-gated persuasion options.; Stealth tail in courtyard and scriptorium stacks.",
+          "variables": "Reputation.Outcasts +1; Carryover: C/O:Macha_Double.",
+          "fail_forward": "If tail is blown, she panics but later provides intel (reduced quality), unlocking a smaller Outcast route.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Confront with partial evidence; offer terms in private.",
+            "– Plant a false lead; test cooperation during a staged tail.",
+            "Encounters: Dialogue timing checks; reputation-gated persuasion options.; Stealth tail in courtyard and scriptorium stacks.",
+            "Variable Checks / Flags: Reputation.Outcasts +1; Carryover: C/O:Macha_Double.",
+            "Fail-forward: If tail is blown, she panics but later provides intel (reduced quality), unlocking a smaller Outcast route."
+          ]
+        },
+        {
+          "name": "Burn the network",
+          "objectives": [
+            "Intercept couriers; raid a message cache in the dorm wing.",
+            "Publicly denounce; deliver seized intel to Hasran command."
+          ],
+          "encounters": "Timed raid with split targets; document scramble mini-game (assemble fragments).",
+          "variables": "Reputation.Hasran +1; Reputation.Outcasts −1; Carryover: C/O:Macha_Burned.",
+          "fail_forward": "If documents scatter, you recover core leads; Hasran favor persists; Outcasts cool toward you.",
+          "rejoin": "Both branches unlock different paths in Outcast Quarter and modify Recon clarity in Act III.",
+          "rewards": "XP: medium; Faction moves shape patrol heat and vendor pricing.",
+          "notes": "Later political scenes call back to this choice.",
+          "raw": [
+            "Objectives:",
+            "– Intercept couriers; raid a message cache in the dorm wing.",
+            "– Publicly denounce; deliver seized intel to Hasran command.",
+            "Encounters: Timed raid with split targets; document scramble mini-game (assemble fragments).",
+            "Variable Checks / Flags: Reputation.Hasran +1; Reputation.Outcasts −1; Carryover: C/O:Macha_Burned.",
+            "Fail-forward: If documents scatter, you recover core leads; Hasran favor persists; Outcasts cool toward you.",
+            "Rejoin/Convergence: Both branches unlock different paths in Outcast Quarter and modify Recon clarity in Act III.",
+            "Rewards/Flags: XP: medium; Faction moves shape patrol heat and vendor pricing.",
+            "Systems/Notes: Later political scenes call back to this choice."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Q18",
+      "title": "Siege of the Spire (G12 Breach Method)",
+      "overview": "Defend the city and decide how to resolve the planar breach during the boss fight.",
+      "preconditions": "After Q15 Celeste & Q16 Airship; Act V.",
+      "raw": [
+        "Overview: Defend the city and decide how to resolve the planar breach during the boss fight.",
+        "Preconditions: After Q15 Celeste & Q16 Airship; Act V.",
+        "Branches",
+        "• Stabilize with wards",
+        "Objectives:",
+        "– Power ward pylons; escort ritualists across open boulevards.",
+        "– Hold two breach surges while repairing a shattered ward circle.",
+        "Encounters: Escort-under-pressure; healer AI; pylon defense with stagger priorities.; Civilians on the field (friendly fire penalties on high difficulties).",
+        "Variable Checks / Flags: Morality +1; CatalystResonance +1; Reputation.Outcasts +1; Carryover: C/O:Breach_Stabilized.",
+        "Fail-forward: If a pylon falls, emergency circle spawns; Shard‑Tyrant gains a minor extra phase but civilians survive.",
+        "• Channel the rift",
+        "Objectives:",
+        "– Anchor the breach; overcharge a conduit to reverse the flow.",
+        "– Manage corruption spikes during Shard‑Tyrant phases (cleanse windows).",
+        "Encounters: Damage races; hazard puddles that scale with CR; corruption meter management.",
+        "Variable Checks / Flags: Morality −1; CatalystResonance +4; Reputation.Hasran +1; Carryover: C/O:Breach_Channeled.",
+        "Fail-forward: If corruption spikes too high, a purge pulse resets the phase at a health tax; boss enrages for 30s.",
+        "Rejoin/Convergence: Both branches end with Shard‑Tyrant collapse → Ritual Raid opens.",
+        "Rewards/Flags: XP: large; Title tint: ‘Savior’ lean vs ‘Void‑Touched’ lean for epilogue.",
+        "Systems/Notes: Hub state and VO change based on breach strategy."
+      ],
+      "branches": [
+        {
+          "name": "Stabilize with wards",
+          "objectives": [
+            "Power ward pylons; escort ritualists across open boulevards.",
+            "Hold two breach surges while repairing a shattered ward circle."
+          ],
+          "encounters": "Escort-under-pressure; healer AI; pylon defense with stagger priorities.; Civilians on the field (friendly fire penalties on high difficulties).",
+          "variables": "Morality +1; CatalystResonance +1; Reputation.Outcasts +1; Carryover: C/O:Breach_Stabilized.",
+          "fail_forward": "If a pylon falls, emergency circle spawns; Shard‑Tyrant gains a minor extra phase but civilians survive.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Power ward pylons; escort ritualists across open boulevards.",
+            "– Hold two breach surges while repairing a shattered ward circle.",
+            "Encounters: Escort-under-pressure; healer AI; pylon defense with stagger priorities.; Civilians on the field (friendly fire penalties on high difficulties).",
+            "Variable Checks / Flags: Morality +1; CatalystResonance +1; Reputation.Outcasts +1; Carryover: C/O:Breach_Stabilized.",
+            "Fail-forward: If a pylon falls, emergency circle spawns; Shard‑Tyrant gains a minor extra phase but civilians survive."
+          ]
+        },
+        {
+          "name": "Channel the rift",
+          "objectives": [
+            "Anchor the breach; overcharge a conduit to reverse the flow.",
+            "Manage corruption spikes during Shard‑Tyrant phases (cleanse windows)."
+          ],
+          "encounters": "Damage races; hazard puddles that scale with CR; corruption meter management.",
+          "variables": "Morality −1; CatalystResonance +4; Reputation.Hasran +1; Carryover: C/O:Breach_Channeled.",
+          "fail_forward": "If corruption spikes too high, a purge pulse resets the phase at a health tax; boss enrages for 30s.",
+          "rejoin": "Both branches end with Shard‑Tyrant collapse → Ritual Raid opens.",
+          "rewards": "XP: large; Title tint: ‘Savior’ lean vs ‘Void‑Touched’ lean for epilogue.",
+          "notes": "Hub state and VO change based on breach strategy.",
+          "raw": [
+            "Objectives:",
+            "– Anchor the breach; overcharge a conduit to reverse the flow.",
+            "– Manage corruption spikes during Shard‑Tyrant phases (cleanse windows).",
+            "Encounters: Damage races; hazard puddles that scale with CR; corruption meter management.",
+            "Variable Checks / Flags: Morality −1; CatalystResonance +4; Reputation.Hasran +1; Carryover: C/O:Breach_Channeled.",
+            "Fail-forward: If corruption spikes too high, a purge pulse resets the phase at a health tax; boss enrages for 30s.",
+            "Rejoin/Convergence: Both branches end with Shard‑Tyrant collapse → Ritual Raid opens.",
+            "Rewards/Flags: XP: large; Title tint: ‘Savior’ lean vs ‘Void‑Touched’ lean for epilogue.",
+            "Systems/Notes: Hub state and VO change based on breach strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Q19",
+      "title": "God‑Souled Hunt — Ritual Raid",
+      "overview": "The cult seeks five god‑souled to evolve the arena. Stop them with rescues or decoys.",
+      "preconditions": "After Siege; Act VI opener.",
+      "raw": [
+        "Overview: The cult seeks five god‑souled to evolve the arena. Stop them with rescues or decoys.",
+        "Preconditions: After Siege; Act VI opener.",
+        "Branches",
+        "• Protect the targets",
+        "Objectives:",
+        "– Identify five god‑souled across districts using intel routes.",
+        "– Run two parallel rescues (player swaps squads) under time pressure.",
+        "– Secure exfil via alley network and rooftop lines.",
+        "Encounters: Multi-thread rescue routing; timer-gated doors; tough choices on who to save first.",
+        "Variable Checks / Flags: Morality +1; Carryover: C/O:GodSouls_Protected.",
+        "Fail-forward: If one target falls, casualties rise and the ritual gains a buff, but the finale still proceeds; epilogue line notes the loss.",
+        "• Use decoys",
+        "Objectives:",
+        "– Craft decoy signatures with Saghir’s Weave at three workbenches.",
+        "– Bait cult hunters into layered traps; spring the arena raid.",
+        "Encounters: Ambush setups; lure mechanics; decoy durability resource to guard.",
+        "Variable Checks / Flags: CatalystResonance +2; Morality −1; Carryover: C/O:GodSouls_Decoy.",
+        "Fail-forward: If traps misfire, fallback path forces one real rescue, blending branches; tone remains darker.",
+        "Rejoin/Convergence: Converges at Conduit finale (A4).",
+        "Rewards/Flags: XP: large; Reputation deltas based on civilian casualties tracked this chapter.",
+        "Systems/Notes: Saghir’s barks reflect empathy (Protect) vs wary pragmatism (Decoys)."
+      ],
+      "branches": [
+        {
+          "name": "Protect the targets",
+          "objectives": [
+            "Identify five god‑souled across districts using intel routes.",
+            "Run two parallel rescues (player swaps squads) under time pressure.",
+            "Secure exfil via alley network and rooftop lines."
+          ],
+          "encounters": "Multi-thread rescue routing; timer-gated doors; tough choices on who to save first.",
+          "variables": "Morality +1; Carryover: C/O:GodSouls_Protected.",
+          "fail_forward": "If one target falls, casualties rise and the ritual gains a buff, but the finale still proceeds; epilogue line notes the loss.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Identify five god‑souled across districts using intel routes.",
+            "– Run two parallel rescues (player swaps squads) under time pressure.",
+            "– Secure exfil via alley network and rooftop lines.",
+            "Encounters: Multi-thread rescue routing; timer-gated doors; tough choices on who to save first.",
+            "Variable Checks / Flags: Morality +1; Carryover: C/O:GodSouls_Protected.",
+            "Fail-forward: If one target falls, casualties rise and the ritual gains a buff, but the finale still proceeds; epilogue line notes the loss."
+          ]
+        },
+        {
+          "name": "Use decoys",
+          "objectives": [
+            "Craft decoy signatures with Saghir’s Weave at three workbenches.",
+            "Bait cult hunters into layered traps; spring the arena raid."
+          ],
+          "encounters": "Ambush setups; lure mechanics; decoy durability resource to guard.",
+          "variables": "CatalystResonance +2; Morality −1; Carryover: C/O:GodSouls_Decoy.",
+          "fail_forward": "If traps misfire, fallback path forces one real rescue, blending branches; tone remains darker.",
+          "rejoin": "Converges at Conduit finale (A4).",
+          "rewards": "XP: large; Reputation deltas based on civilian casualties tracked this chapter.",
+          "notes": "Saghir’s barks reflect empathy (Protect) vs wary pragmatism (Decoys).",
+          "raw": [
+            "Objectives:",
+            "– Craft decoy signatures with Saghir’s Weave at three workbenches.",
+            "– Bait cult hunters into layered traps; spring the arena raid.",
+            "Encounters: Ambush setups; lure mechanics; decoy durability resource to guard.",
+            "Variable Checks / Flags: CatalystResonance +2; Morality −1; Carryover: C/O:GodSouls_Decoy.",
+            "Fail-forward: If traps misfire, fallback path forces one real rescue, blending branches; tone remains darker.",
+            "Rejoin/Convergence: Converges at Conduit finale (A4).",
+            "Rewards/Flags: XP: large; Reputation deltas based on civilian casualties tracked this chapter.",
+            "Systems/Notes: Saghir’s barks reflect empathy (Protect) vs wary pragmatism (Decoys)."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Q20",
+      "title": "Erik and the Morrigan",
+      "overview": "A political gambit withholds fleets, leaving Erik to face the Morrigan alone.",
+      "preconditions": "After Q17 Macha; before Q21 Lake Ambush; Act IV.",
+      "raw": [
+        "Overview: A political gambit withholds fleets, leaving Erik to face the Morrigan alone.",
+        "Preconditions: After Q17 Macha; before Q21 Lake Ambush; Act IV.",
+        "Branches",
+        "• Intervene",
+        "Objectives:",
+        "– Traverse breach‑ridden rooftops to reach the dueling grounds.",
+        "– Disrupt the Morrigan’s opening gambit (counter her opener).",
+        "– Extract Erik under covering fire to a safe balcony.",
+        "Encounters: High-mobility platforming with gap closers; duelist miniboss windows.",
+        "Variable Checks / Flags: Morality +1; Reputation.Outcasts +1; Carryover: C/O:Erik_Saved.",
+        "Fail-forward: If extraction falters, Erik is wounded but lives; debt still owed.",
+        "• Stand aside",
+        "Objectives:",
+        "– Observe and report outcomes; ensure strategic assets remain intact.",
+        "– Optional pick-off to prevent worst civilian casualties.",
+        "Encounters: Observation stealth with vantage points; limited-intervention shots.",
+        "Variable Checks / Flags: Reputation.Hasran +2; Morality −1; Carryover: C/O:Erik_Alone.",
+        "Fail-forward: If civilians die, Outcasts −1 additional; you still retain Hasran favor.",
+        "Rejoin/Convergence: Feeds Q21 Lake Ambush tone and faction presence.",
+        "Rewards/Flags: XP: medium; changes patrol heat and vendor pricing.",
+        "Systems/Notes: Later dialogue references this decision explicitly."
+      ],
+      "branches": [
+        {
+          "name": "Intervene",
+          "objectives": [
+            "Traverse breach‑ridden rooftops to reach the dueling grounds.",
+            "Disrupt the Morrigan’s opening gambit (counter her opener).",
+            "Extract Erik under covering fire to a safe balcony."
+          ],
+          "encounters": "High-mobility platforming with gap closers; duelist miniboss windows.",
+          "variables": "Morality +1; Reputation.Outcasts +1; Carryover: C/O:Erik_Saved.",
+          "fail_forward": "If extraction falters, Erik is wounded but lives; debt still owed.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Traverse breach‑ridden rooftops to reach the dueling grounds.",
+            "– Disrupt the Morrigan’s opening gambit (counter her opener).",
+            "– Extract Erik under covering fire to a safe balcony.",
+            "Encounters: High-mobility platforming with gap closers; duelist miniboss windows.",
+            "Variable Checks / Flags: Morality +1; Reputation.Outcasts +1; Carryover: C/O:Erik_Saved.",
+            "Fail-forward: If extraction falters, Erik is wounded but lives; debt still owed."
+          ]
+        },
+        {
+          "name": "Stand aside",
+          "objectives": [
+            "Observe and report outcomes; ensure strategic assets remain intact.",
+            "Optional pick-off to prevent worst civilian casualties."
+          ],
+          "encounters": "Observation stealth with vantage points; limited-intervention shots.",
+          "variables": "Reputation.Hasran +2; Morality −1; Carryover: C/O:Erik_Alone.",
+          "fail_forward": "If civilians die, Outcasts −1 additional; you still retain Hasran favor.",
+          "rejoin": "Feeds Q21 Lake Ambush tone and faction presence.",
+          "rewards": "XP: medium; changes patrol heat and vendor pricing.",
+          "notes": "Later dialogue references this decision explicitly.",
+          "raw": [
+            "Objectives:",
+            "– Observe and report outcomes; ensure strategic assets remain intact.",
+            "– Optional pick-off to prevent worst civilian casualties.",
+            "Encounters: Observation stealth with vantage points; limited-intervention shots.",
+            "Variable Checks / Flags: Reputation.Hasran +2; Morality −1; Carryover: C/O:Erik_Alone.",
+            "Fail-forward: If civilians die, Outcasts −1 additional; you still retain Hasran favor.",
+            "Rejoin/Convergence: Feeds Q21 Lake Ambush tone and faction presence.",
+            "Rewards/Flags: XP: medium; changes patrol heat and vendor pricing.",
+            "Systems/Notes: Later dialogue references this decision explicitly."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "Q21",
+      "title": "Catalyst Ambush at the Lake",
+      "overview": "A planned ambush around a Catalyst threatens Erik’s quint; choose tactics.",
+      "preconditions": "After Q20; closes Act IV loop before Siege prep.",
+      "raw": [
+        "Overview: A planned ambush around a Catalyst threatens Erik’s quint; choose tactics.",
+        "Preconditions: After Q20; closes Act IV loop before Siege prep.",
+        "Branches",
+        "• Hold the line",
+        "Objectives:",
+        "– Form a defensive wedge; cover the quint’s retreat path.",
+        "– Counter a two-front push until evac arrives (timer).",
+        "Encounters: Wave defense; stagger and ward timing; environmental cover management.",
+        "Variable Checks / Flags: Morality +1; SaghirLoyalty +3; Carryover: C/O:Lake_Hold.",
+        "Fail-forward: If the line breaks, evac still extracts most; SL +2 instead of +3; minor casualty epilogue line.",
+        "• Break contact",
+        "Objectives:",
+        "– Deploy smoke; retreat through cattail trenches.",
+        "– Avoid patrol flares; regroup on hilltop and rejoin main force.",
+        "Encounters: Stealth pathing; timed flares; brief skirmishes if detected.",
+        "Variable Checks / Flags: Reputation.Hasran +1; Carryover: C/O:Lake_Break.",
+        "Fail-forward: If spotted, small skirmish triggers; regroup succeeds; lose minor materials.",
+        "Rejoin/Convergence: Converges into Temple Order if not yet completed, else moves to Siege prep state.",
+        "Rewards/Flags: XP: medium; Materials: field kits; faction perception adjusted.",
+        "Systems/Notes: Newsboards and NPC barks cite your tactics later."
+      ],
+      "branches": [
+        {
+          "name": "Hold the line",
+          "objectives": [
+            "Form a defensive wedge; cover the quint’s retreat path.",
+            "Counter a two-front push until evac arrives (timer)."
+          ],
+          "encounters": "Wave defense; stagger and ward timing; environmental cover management.",
+          "variables": "Morality +1; SaghirLoyalty +3; Carryover: C/O:Lake_Hold.",
+          "fail_forward": "If the line breaks, evac still extracts most; SL +2 instead of +3; minor casualty epilogue line.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Form a defensive wedge; cover the quint’s retreat path.",
+            "– Counter a two-front push until evac arrives (timer).",
+            "Encounters: Wave defense; stagger and ward timing; environmental cover management.",
+            "Variable Checks / Flags: Morality +1; SaghirLoyalty +3; Carryover: C/O:Lake_Hold.",
+            "Fail-forward: If the line breaks, evac still extracts most; SL +2 instead of +3; minor casualty epilogue line."
+          ]
+        },
+        {
+          "name": "Break contact",
+          "objectives": [
+            "Deploy smoke; retreat through cattail trenches.",
+            "Avoid patrol flares; regroup on hilltop and rejoin main force."
+          ],
+          "encounters": "Stealth pathing; timed flares; brief skirmishes if detected.",
+          "variables": "Reputation.Hasran +1; Carryover: C/O:Lake_Break.",
+          "fail_forward": "If spotted, small skirmish triggers; regroup succeeds; lose minor materials.",
+          "rejoin": "Converges into Temple Order if not yet completed, else moves to Siege prep state.",
+          "rewards": "XP: medium; Materials: field kits; faction perception adjusted.",
+          "notes": "Newsboards and NPC barks cite your tactics later.",
+          "raw": [
+            "Objectives:",
+            "– Deploy smoke; retreat through cattail trenches.",
+            "– Avoid patrol flares; regroup on hilltop and rejoin main force.",
+            "Encounters: Stealth pathing; timed flares; brief skirmishes if detected.",
+            "Variable Checks / Flags: Reputation.Hasran +1; Carryover: C/O:Lake_Break.",
+            "Fail-forward: If spotted, small skirmish triggers; regroup succeeds; lose minor materials.",
+            "Rejoin/Convergence: Converges into Temple Order if not yet completed, else moves to Siege prep state.",
+            "Rewards/Flags: XP: medium; Materials: field kits; faction perception adjusted.",
+            "Systems/Notes: Newsboards and NPC barks cite your tactics later."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E13",
+      "title": "Refugee Priority",
+      "overview": "Decide relief strategy for the Outcast Quarter during the crisis.",
+      "preconditions": "During Act IV hub setup; before Siege escalation.",
+      "raw": [
+        "Overview: Decide relief strategy for the Outcast Quarter during the crisis.",
+        "Preconditions: During Act IV hub setup; before Siege escalation.",
+        "Branches",
+        "• Evacuate families first",
+        "Objectives:",
+        "– Clear safe lanes; escort caravans to warded gates.",
+        "– Hold chokepoints while gates cycle.",
+        "Encounters: Escort under ranged pressure; timing gates; optional rooftop cover fire.",
+        "Variable Checks / Flags: Morality +1; Reputation.Outcasts +2; Reputation.Hasran −1; Carryover: C/O:RefugeesSafe.",
+        "Fail-forward: If one caravan is hit, Outcasts +1 only; Hasran −1 persists.",
+        "• Secure armories first",
+        "Objectives:",
+        "– Lock down weapon caches; distribute gear to militia.",
+        "– Defend two depots until locks engage.",
+        "Encounters: Short skirmishes; lock-cracking mini‑game; explosive barrels risk.",
+        "Variable Checks / Flags: Reputation.Hasran +2; Reputation.Outcasts −1; CatalystResonance +1; Carryover: C/O:ArmsSecured.",
+        "Fail-forward: If a cache is overrun, Hasran +1 only; Outcasts −1 persists.",
+        "Rejoin/Convergence: Impacts Siege spawn weights and vendor stock in the hub.",
+        "Rewards/Flags: XP: medium; unlocks vendors based on outcome.",
+        "Systems/Notes: Hub visuals swap signage and NPC chatter accordingly."
+      ],
+      "branches": [
+        {
+          "name": "Evacuate families first",
+          "objectives": [
+            "Clear safe lanes; escort caravans to warded gates.",
+            "Hold chokepoints while gates cycle."
+          ],
+          "encounters": "Escort under ranged pressure; timing gates; optional rooftop cover fire.",
+          "variables": "Morality +1; Reputation.Outcasts +2; Reputation.Hasran −1; Carryover: C/O:RefugeesSafe.",
+          "fail_forward": "If one caravan is hit, Outcasts +1 only; Hasran −1 persists.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Clear safe lanes; escort caravans to warded gates.",
+            "– Hold chokepoints while gates cycle.",
+            "Encounters: Escort under ranged pressure; timing gates; optional rooftop cover fire.",
+            "Variable Checks / Flags: Morality +1; Reputation.Outcasts +2; Reputation.Hasran −1; Carryover: C/O:RefugeesSafe.",
+            "Fail-forward: If one caravan is hit, Outcasts +1 only; Hasran −1 persists."
+          ]
+        },
+        {
+          "name": "Secure armories first",
+          "objectives": [
+            "Lock down weapon caches; distribute gear to militia.",
+            "Defend two depots until locks engage."
+          ],
+          "encounters": "Short skirmishes; lock-cracking mini‑game; explosive barrels risk.",
+          "variables": "Reputation.Hasran +2; Reputation.Outcasts −1; CatalystResonance +1; Carryover: C/O:ArmsSecured.",
+          "fail_forward": "If a cache is overrun, Hasran +1 only; Outcasts −1 persists.",
+          "rejoin": "Impacts Siege spawn weights and vendor stock in the hub.",
+          "rewards": "XP: medium; unlocks vendors based on outcome.",
+          "notes": "Hub visuals swap signage and NPC chatter accordingly.",
+          "raw": [
+            "Objectives:",
+            "– Lock down weapon caches; distribute gear to militia.",
+            "– Defend two depots until locks engage.",
+            "Encounters: Short skirmishes; lock-cracking mini‑game; explosive barrels risk.",
+            "Variable Checks / Flags: Reputation.Hasran +2; Reputation.Outcasts −1; CatalystResonance +1; Carryover: C/O:ArmsSecured.",
+            "Fail-forward: If a cache is overrun, Hasran +1 only; Outcasts −1 persists.",
+            "Rejoin/Convergence: Impacts Siege spawn weights and vendor stock in the hub.",
+            "Rewards/Flags: XP: medium; unlocks vendors based on outcome.",
+            "Systems/Notes: Hub visuals swap signage and NPC chatter accordingly."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "A3",
+      "title": "Arena Ethos",
+      "overview": "Win the arena trial to secure Academy admission; define your public image.",
+      "preconditions": "Act I Arena sequence.",
+      "raw": [
+        "Overview: Win the arena trial to secure Academy admission; define your public image.",
+        "Preconditions: Act I Arena sequence.",
+        "Branches",
+        "• Win with restraint",
+        "Objectives:",
+        "– Parry three champion strings; avoid lethal finishers.",
+        "– Perform a non‑lethal crowd‑pleasing finisher (prompt).",
+        "Encounters: Precision parry windows; crowd heat meter learns ‘respect’ thresholds.",
+        "Variable Checks / Flags: Morality +1; CatalystResonance +2; Carryover: C/O:PrecisionBias.",
+        "Fail-forward: If you accidentally kill, branch flips to Fury; crowd boos; admission still granted.",
+        "• Win with fury",
+        "Objectives:",
+        "– Build Catalyst meter quickly; trigger overdrive to end duel.",
+        "– Use hazards to stagger champion into kill zone.",
+        "Encounters: Aggro management; overdrive burn; hazard awareness.",
+        "Variable Checks / Flags: Morality −1; CatalystResonance +5; Carryover: C/O:CorruptionBias.",
+        "Fail-forward: If you gas out, Saghir callout opens a stun window; you still win with Fury tone.",
+        "Rejoin/Convergence: Both routes lead to Academy Invite with tailored VO lines.",
+        "Rewards/Flags: XP: medium; public nickname and initial vendor prices vary.",
+        "Systems/Notes: Patrol tolerance shifts slightly based on ethos."
+      ],
+      "branches": [
+        {
+          "name": "Win with restraint",
+          "objectives": [
+            "Parry three champion strings; avoid lethal finishers.",
+            "Perform a non‑lethal crowd‑pleasing finisher (prompt)."
+          ],
+          "encounters": "Precision parry windows; crowd heat meter learns ‘respect’ thresholds.",
+          "variables": "Morality +1; CatalystResonance +2; Carryover: C/O:PrecisionBias.",
+          "fail_forward": "If you accidentally kill, branch flips to Fury; crowd boos; admission still granted.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Parry three champion strings; avoid lethal finishers.",
+            "– Perform a non‑lethal crowd‑pleasing finisher (prompt).",
+            "Encounters: Precision parry windows; crowd heat meter learns ‘respect’ thresholds.",
+            "Variable Checks / Flags: Morality +1; CatalystResonance +2; Carryover: C/O:PrecisionBias.",
+            "Fail-forward: If you accidentally kill, branch flips to Fury; crowd boos; admission still granted."
+          ]
+        },
+        {
+          "name": "Win with fury",
+          "objectives": [
+            "Build Catalyst meter quickly; trigger overdrive to end duel.",
+            "Use hazards to stagger champion into kill zone."
+          ],
+          "encounters": "Aggro management; overdrive burn; hazard awareness.",
+          "variables": "Morality −1; CatalystResonance +5; Carryover: C/O:CorruptionBias.",
+          "fail_forward": "If you gas out, Saghir callout opens a stun window; you still win with Fury tone.",
+          "rejoin": "Both routes lead to Academy Invite with tailored VO lines.",
+          "rewards": "XP: medium; public nickname and initial vendor prices vary.",
+          "notes": "Patrol tolerance shifts slightly based on ethos.",
+          "raw": [
+            "Objectives:",
+            "– Build Catalyst meter quickly; trigger overdrive to end duel.",
+            "– Use hazards to stagger champion into kill zone.",
+            "Encounters: Aggro management; overdrive burn; hazard awareness.",
+            "Variable Checks / Flags: Morality −1; CatalystResonance +5; Carryover: C/O:CorruptionBias.",
+            "Fail-forward: If you gas out, Saghir callout opens a stun window; you still win with Fury tone.",
+            "Rejoin/Convergence: Both routes lead to Academy Invite with tailored VO lines.",
+            "Rewards/Flags: XP: medium; public nickname and initial vendor prices vary.",
+            "Systems/Notes: Patrol tolerance shifts slightly based on ethos."
+          ]
+        }
+      ]
+    },
+    {
+      "code": "A4",
+      "title": "Conduit Decision",
+      "overview": "Final choice at the ritual conduit; determines ending tint and strong CR swing.",
+      "preconditions": "Act VI finale after Ritual Raid ‘God‑Souled’.",
+      "raw": [
+        "Overview: Final choice at the ritual conduit; determines ending tint and strong CR swing.",
+        "Preconditions: Act VI finale after Ritual Raid ‘God‑Souled’.",
+        "Branches",
+        "• Destroy the conduit",
+        "Objectives:",
+        "– Interrupt ritualist nodes; reverse flow via wardline puzzle.",
+        "– Shatter the focus before the overcharge.",
+        "Encounters: Puzzle‑lite node locks; add waves; timed interrupts.",
+        "Variable Checks / Flags: Morality +1; CatalystResonance +2; Carryover: C/O:SaviorState.",
+        "Fail-forward: If timer lapses once, backup wardline spawns; fight extends but destruction remains possible.",
+        "• Absorb the conduit",
+        "Objectives:",
+        "– Anchor yourself; channel the focus into your core.",
+        "– Survive corruption surges while maintaining control.",
+        "Encounters: Damage‑over‑time management; expanding hazard rings; reduced healing windows.",
+        "Variable Checks / Flags: Morality −1; CatalystResonance +8; Carryover: C/O:VoidTouchedState.",
+        "Fail-forward: If corruption maxes, Saghir triggers an emergency ward once; scene resumes with a scar line in epilogue.",
+        "Rejoin/Convergence: Ends Act VI → Epilogue variations (Savior vs Void‑Touched).",
+        "Rewards/Flags: XP: boss-tier; tint & VO change for credits stinger.",
+        "Systems/Notes: Save carries all flags for Game II."
+      ],
+      "branches": [
+        {
+          "name": "Destroy the conduit",
+          "objectives": [
+            "Interrupt ritualist nodes; reverse flow via wardline puzzle.",
+            "Shatter the focus before the overcharge."
+          ],
+          "encounters": "Puzzle‑lite node locks; add waves; timed interrupts.",
+          "variables": "Morality +1; CatalystResonance +2; Carryover: C/O:SaviorState.",
+          "fail_forward": "If timer lapses once, backup wardline spawns; fight extends but destruction remains possible.",
+          "rejoin": "",
+          "rewards": "",
+          "notes": "",
+          "raw": [
+            "Objectives:",
+            "– Interrupt ritualist nodes; reverse flow via wardline puzzle.",
+            "– Shatter the focus before the overcharge.",
+            "Encounters: Puzzle‑lite node locks; add waves; timed interrupts.",
+            "Variable Checks / Flags: Morality +1; CatalystResonance +2; Carryover: C/O:SaviorState.",
+            "Fail-forward: If timer lapses once, backup wardline spawns; fight extends but destruction remains possible."
+          ]
+        },
+        {
+          "name": "Absorb the conduit",
+          "objectives": [
+            "Anchor yourself; channel the focus into your core.",
+            "Survive corruption surges while maintaining control."
+          ],
+          "encounters": "Damage‑over‑time management; expanding hazard rings; reduced healing windows.",
+          "variables": "Morality −1; CatalystResonance +8; Carryover: C/O:VoidTouchedState.",
+          "fail_forward": "If corruption maxes, Saghir triggers an emergency ward once; scene resumes with a scar line in epilogue.",
+          "rejoin": "Ends Act VI → Epilogue variations (Savior vs Void‑Touched).",
+          "rewards": "XP: boss-tier; tint & VO change for credits stinger.",
+          "notes": "Save carries all flags for Game II.",
+          "raw": [
+            "Objectives:",
+            "– Anchor yourself; channel the focus into your core.",
+            "– Survive corruption surges while maintaining control.",
+            "Encounters: Damage‑over‑time management; expanding hazard rings; reduced healing windows.",
+            "Variable Checks / Flags: Morality −1; CatalystResonance +8; Carryover: C/O:VoidTouchedState.",
+            "Fail-forward: If corruption maxes, Saghir triggers an emergency ward once; scene resumes with a scar line in epilogue.",
+            "Rejoin/Convergence: Ends Act VI → Epilogue variations (Savior vs Void‑Touched).",
+            "Rewards/Flags: XP: boss-tier; tint & VO change for credits stinger.",
+            "Systems/Notes: Save carries all flags for Game II."
+          ]
+        }
+      ]
+    }
+  ]
+}

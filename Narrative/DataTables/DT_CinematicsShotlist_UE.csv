@@ -1,0 +1,42 @@
+Name,questline,scene_id,shot_no,framing,lens_mm,cam_move,duration_s,description,audio_notes,ui_notes,references
+GA-S1_SHOT01,Glow Audit,GA-S1,1,WIDE,24,Slow dolly in,8,"Establish reactor gantry, shift change","Hum motif, steam hiss",UI: GA_002,"Refs: GA_001,GA_002"
+GA-S1_SHOT02,Glow Audit,GA-S1,2,OS/R,50,Static two-shot,6,"Rhal briefs Xal, glow dust smear",Low crowd bed,—,Ref: GA_001
+GA-S1_SHOT03,Glow Audit,GA-S1,3,CU,70,Static,4,Xal reaction beat,Subtle hum,—,—
+GA-S2_SHOT01,Glow Audit,GA-S2,1,WIDE,35,Shoulder cam,7,Fork: Authorized vs Service Shaft,Split ambience warm/cool,Decision overlay GA_005,"Ref: GA_004,GA_005"
+GA-S2_SHOT02,Glow Audit,GA-S2,2,MED,50,Track,5,Ashianna emerges (dirty route),Footstep reverb,—,Ref: GA_004
+GA-S3A_SHOT01,Glow Audit,GA-S3A,1,MED,70,Static,6,Gate Warden checks credentials,Glass clink,—,Ref: GA_006_AUTH
+GA-S3A_SHOT02,Glow Audit,GA-S3A,2,CU,85,Insert,3,Pass close-up; stamp,Stamp thud,—,—
+GA-S3B_SHOT01,Glow Audit,GA-S3B,1,TIGHT,24,Crawl,6,Vent crawl with dust motes,Breath + cloth rustle,—,Ref: GA_006_GHOST
+GA-S3B_SHOT02,Glow Audit,GA-S3B,2,INSERT,85,Static,3,Glyph tripwire close,High chime,—,—
+GA-S4_SHOT01,Glow Audit,GA-S4,1,WIDE,35,Steadycam,8,"Archive stacks, two glowing files",Air hum,UI: GA_007,Ref: GA_007
+GA-S4_SHOT02,Glow Audit,GA-S4,2,CU,70,Static,4,Slate text flicker,CRT-like chirp,—,—
+GA-S5_SHOT01,Glow Audit,GA-S5,1,MED,50,Static,7,Rhal thanks in stairwell alcove,Crowd above,—,Ref: GA_008
+GA-S5_SHOT02,Glow Audit,GA-S5,2,MED,50,Walk,6,"Clinic corridor, Tissa line (branch)",Soft clinic ambience,—,Ref: GA_009
+AS-S1_SHOT01,Arena Sting,AS-S1,1,WIDE,24,Handheld,7,Under-bleachers bustle,Crowd rumble,UI: AS_002,Ref: AS_001
+AS-S1_SHOT02,Arena Sting,AS-S1,2,MED,50,Static two-shot,5,Medic whisper brief,Muffled drums,—,Ref: AS_001
+AS-S2A_SHOT01,Arena Sting,AS-S2A,1,MED,50,Static,6,Macha instructs trainee,Sand scuff,—,Ref: AS_003A
+AS-S2B_SHOT01,Arena Sting,AS-S2B,1,MED,70,Static,6,Desidria ledger scene,Paper/ink foley,—,Ref: AS_003B
+AS-S3_SHOT01,Arena Sting,AS-S3,1,WIDE,35,Crane,8,Ring-side expose (public),Crowd hush → cheer,UI: AS_004,"Refs: AS_004,AS_005"
+AS-S3_SHOT02,Arena Sting,AS-S3,2,MED,50,Backroom,6,Quiet handoff variant,Room tone,—,Ref: AS_004
+SM-S1_SHOT01,Smuggler's Mirror,SM-S1,1,GLIDE,35,Glide,8,Dock lanterns reflections,Gulls/creak,UI: SM_002,Ref: SM_001
+SM-S1_SHOT02,Smuggler's Mirror,SM-S1,2,MED,50,Static,5,Vessa pitch,Soft surf,—,Ref: SM_001
+SM-S2_SHOT01,Smuggler's Mirror,SM-S2,1,WALK,35,Walk-and-talk,6,Saghir quip en route,Footfalls,UI: SM_004,Ref: SM_003
+SM-S2_SHOT02,Smuggler's Mirror,SM-S2,2,WIDE,35,Static,6,Checkpoint silhouettes,Torch crackle,—,Ref: SM_004
+SM-S3_SHOT01,Smuggler's Mirror,SM-S3,1,MED,50,Static,5,"Alley exit, Lorin line",Quiet laugh,—,Ref: SM_005
+LK-S1_SHOT01,Ledger Knot,LK-S1,1,MED,35,Static,6,Factor contract plea,Shutters light,UI: LK_002,Ref: LK_001
+LK-S2A_SHOT01,Ledger Knot,LK-S2A,1,WIDE,35,Static,6,Warehouse audit walk,Crate chalk,—,Ref: LK_003A
+LK-S2A_SHOT02,Ledger Knot,LK-S2A,2,INSERT,85,Insert,3,Finger tracing tally runes,Chalk squeak,—,—
+LK-S2B_SHOT01,Ledger Knot,LK-S2B,1,WIDE,24,Wide→insert,7,Rooftop entry; lockpick insert,Night wind,—,Ref: LK_003B
+LK-S3_SHOT01,Ledger Knot,LK-S3,1,MED,50,Static,6,Gallery decision scene,Murmur,UI: LK_004,Ref: LK_004
+LK-S3_SHOT02,Ledger Knot,LK-S3,2,CU,70,Static,3,Promissory note close,Paper slide,—,Ref: LK_005
+OO-S1_SHOT01,Oracles' Offer,OO-S1,1,MED,35,Static,6,"Riverside shrine, offer",Water light,UI: OO_002,Ref: OO_001
+OO-S2_SHOT01,Oracles' Offer,OO-S2,1,CU,70,Focus pull,5,Memory price line,Soft chorus,—,Ref: OO_003B
+OO-S2_SHOT02,Oracles' Offer,OO-S2,2,MED,50,Static,5,Saghir reprimand,Single drip,—,Ref: OO_003C
+PP-S1_SHOT01,Palace Petition,PP-S1,1,MED,50,Static,6,Princess Li ask,Low strings,UI: PP_002,Ref: PP_001
+PP-S2A_SHOT01,Palace Petition,PP-S2A,1,MED,50,Static,5,Salon etiquette,Teacup,—,Ref: PP_003A
+PP-S2B_SHOT01,Palace Petition,PP-S2B,1,WIDE,35,Static,5,Guard hall admonition,Boot echoes,—,Ref: PP_003B
+KV-S1_SHOT01,Khalir's Vault,KV-S1,1,MED,35,Static,6,Archive request,Dust motes,UI: KV_002,Ref: KV_001
+KV-S2_SHOT01,Khalir's Vault,KV-S2,1,WIDE,24,Track,7,Ruin approach,Heat shimmer,—,Ref: KV_003
+KV-S3_SHOT01,Khalir's Vault,KV-S3,1,WIDE,35,Static,7,Relic custody decision,Low hum,UI: KV_004,Ref: KV_004
+KV-S3_SHOT02,Khalir's Vault,KV-S3,2,CU,70,Static,5,Saghir wrap line,Soft echo,—,Ref: KV_005
+OCC-XS_SHOT01,Companion Ambient,OCC-XS,1,MED,50,Handheld,6,Campfire exchange,Night insects,UI: OCC_XS_2,"Refs: OCC_XS_1,OCC_XS_2"

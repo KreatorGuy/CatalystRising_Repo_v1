@@ -1,0 +1,617 @@
+{
+  "source_pdf": "Catalyst_Rising_Branching_Narrative_v2_Added_Decision_Points.pdf",
+  "decision_points": [
+    {
+      "dp_id": "DP-1",
+      "title": "Approach to the void-lake",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S1 — Into the Warrens",
+      "options": [
+        {
+          "key": "A",
+          "text": "Perform the cautious ritual.",
+          "immediate": "+LI_TRUST; +CAW_DISCIPLINE; -VOID_TAINT (minor)",
+          "long_term": "Set RITUAL_RESPECT=1"
+        },
+        {
+          "key": "B",
+          "text": "Improvise and drink.",
+          "immediate": "+VOID_TAINT (moderate); +ARENA_HEAT (minor)",
+          "long_term": "Set RITUAL_RESPECT=0"
+        },
+        {
+          "key": "C",
+          "text": "Refuse; seek alternative power.",
+          "immediate": "Delay Catalyst onset; +GHOSTFLEET_INTEL (if exploration succeeds)",
+          "long_term": "Unlock side scene S1b"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-1A",
+      "title": "Save Nef or secure the relics (time-boxed)",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S1 — Into the Warrens",
+      "options": [
+        {
+          "key": "A",
+          "text": "Save Nef first.",
+          "immediate": "+REP_DIMS; +LI_TRUST (minor); Lose some loot",
+          "long_term": "Set NEF_SAVED=1"
+        },
+        {
+          "key": "B",
+          "text": "Secure relics first.",
+          "immediate": "+Artifacts; +VOID_TAINT (minor risk)",
+          "long_term": "Set NEF_SAVED=0; Unlock guilt banter later"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-2",
+      "title": "Kazon’s parley (bread/salt/name)",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S1 — Into the Warrens",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept bread & offer prayer.",
+          "immediate": "+TISSA_LOYALTY; Flag PRAYER_BOUND=1",
+          "long_term": "Enable omen scenes"
+        },
+        {
+          "key": "B",
+          "text": "Decline bread; distance.",
+          "immediate": "+CAW_DISCIPLINE; -REP_DIMS (minor)",
+          "long_term": "No omen scenes"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-2A",
+      "title": "Accept a demon mark as safe-conduct",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S1 — Into the Warrens",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accept the mark (hidden).",
+          "immediate": "+Mobility; +Kazon favor; -REP_HASRA",
+          "long_term": "Flag DEMON_MARK=1; Special checks later"
+        },
+        {
+          "key": "B",
+          "text": "Refuse the mark.",
+          "immediate": "+REP_HASRA; +CAW_DISCIPLINE",
+          "long_term": "Flag DEMON_MARK=0"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-3",
+      "title": "Handle barracks hazing",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S2 — The Call — Conscript Muster",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stand up publicly.",
+          "immediate": "+ARENA_HEAT; +REP_DIMS; Injury risk",
+          "long_term": "Unlock duel tutorial S2a"
+        },
+        {
+          "key": "B",
+          "text": "De-escalate (doctrine).",
+          "immediate": "+CAW_DISCIPLINE; +Caw mentor scenes",
+          "long_term": "Set CAW_MENTOR=1"
+        },
+        {
+          "key": "C",
+          "text": "Stealth payback via Tissa.",
+          "immediate": "+TISSA_LOYALTY; +VOID_TAINT (minor if void used)",
+          "long_term": "Add stealth tag later"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-3A",
+      "title": "Choose dec/quin composition for training",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S2 — The Call — Conscript Muster",
+      "options": [
+        {
+          "key": "A",
+          "text": "Shield-heavy dec (tanks).",
+          "immediate": "+Survivability; -Tempo",
+          "long_term": "Tag DECCOMP=SHIELD"
+        },
+        {
+          "key": "B",
+          "text": "Skirmisher quin (agile).",
+          "immediate": "+Tempo; -Stability",
+          "long_term": "Tag DECCOMP=SKIRMISH"
+        },
+        {
+          "key": "C",
+          "text": "Balanced mix.",
+          "immediate": "+Flexibility",
+          "long_term": "Tag DECCOMP=BALANCED"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-4",
+      "title": "Scavenge vs. maintain pace",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S3 — March to the Pass",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scavenge supplies.",
+          "immediate": "Gain consumables; -CAW_DISCIPLINE",
+          "long_term": "Random encounter risk"
+        },
+        {
+          "key": "B",
+          "text": "Maintain pace by the book.",
+          "immediate": "+CAW_DISCIPLINE; Less fatigue",
+          "long_term": "Unlock Caw trust banter"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-4A",
+      "title": "Who carries the wounded?",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S3 — March to the Pass",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rotate burden across the dec.",
+          "immediate": "+Cohesion; Higher fatigue",
+          "long_term": "Cohesion scenes"
+        },
+        {
+          "key": "B",
+          "text": "Leave them to the rear (grim).",
+          "immediate": "+Tempo; Moral cost; -REP_DIMS",
+          "long_term": "Set ABANDONED=1"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-5",
+      "title": "Mud-blindness execution",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S4 — Boss: The Dullahan Pursuit",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full team coordination (needs CAW_DISCIPLINE ≥2).",
+          "immediate": "Clean escape; +LI_TRUST",
+          "long_term": "Set MUD_TRICK_MASTERED=1"
+        },
+        {
+          "key": "B",
+          "text": "Chaotic retreat.",
+          "immediate": "Escape with injuries; +ARENA_HEAT",
+          "long_term": "Set MUD_TRICK_MASTERED=0"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-5A",
+      "title": "Who draws aggro?",
+      "act": "Act I — The Call and the Warrens (with Added Decisions)",
+      "scene": "S4 — Boss: The Dullahan Pursuit",
+      "options": [
+        {
+          "key": "A",
+          "text": "Xal uses void flare.",
+          "immediate": "+VOID_TAINT; +Team safety",
+          "long_term": "Void tells spread in city"
+        },
+        {
+          "key": "B",
+          "text": "Caw anchors shield wall.",
+          "immediate": "+CAW_DISCIPLINE; Caw injury risk",
+          "long_term": "Caw injury storylet"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-6",
+      "title": "Exhibition performance",
+      "act": "Act II — Courts & Cannons (with Added Decisions)",
+      "scene": "S5 — Arena & Court Tour",
+      "options": [
+        {
+          "key": "A",
+          "text": "Play to the crowd.",
+          "immediate": "+ARENA_HEAT (big); +REP_HASRA (spectacle)",
+          "long_term": "Media flags"
+        },
+        {
+          "key": "B",
+          "text": "Understated efficiency.",
+          "immediate": "+CAW_DISCIPLINE; -ARENA_HEAT",
+          "long_term": "Tactician respect"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-6A",
+      "title": "Choose a sponsor (soft faction lock)",
+      "act": "Act II — Courts & Cannons (with Added Decisions)",
+      "scene": "S5 — Arena & Court Tour",
+      "options": [
+        {
+          "key": "A",
+          "text": "Kem Overseers.",
+          "immediate": "+REP_HASRA; +Payouts",
+          "long_term": "Sponsor=KEM"
+        },
+        {
+          "key": "B",
+          "text": "Temple Stewards.",
+          "immediate": "+Access to sanctums; -ARENA_HEAT growth",
+          "long_term": "Sponsor=STEWARDS"
+        },
+        {
+          "key": "C",
+          "text": "Independent (Dims patrons).",
+          "immediate": "+REP_DIMS; +Freedom; -Court access",
+          "long_term": "Sponsor=INDEP"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-7",
+      "title": "Assassination response",
+      "act": "Act II — Courts & Cannons (with Added Decisions)",
+      "scene": "S6 — Knife-Banquet (Poison Plot)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Expose publicly.",
+          "immediate": "+REP_HASRA (mixed); +ARENA_HEAT; Crispus rival",
+          "long_term": "CRISPUS_EXPOSED=1"
+        },
+        {
+          "key": "B",
+          "text": "Counter quietly; collect leverage.",
+          "immediate": "+TISSA_LOYALTY; +Li alliance",
+          "long_term": "BLACKMAIL_CARDS+1"
+        },
+        {
+          "key": "C",
+          "text": "Let it happen.",
+          "immediate": "Erik removed; Moral cost; +VOID_TAINT (minor)",
+          "long_term": "Early regime vacuum"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-7A",
+      "title": "Protective detail assignment",
+      "act": "Act II — Courts & Cannons (with Added Decisions)",
+      "scene": "S6 — Knife-Banquet (Poison Plot)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Guard Li.",
+          "immediate": "+LI_TRUST; +REP_CALMORA",
+          "long_term": "LI_SAVED=1 path"
+        },
+        {
+          "key": "B",
+          "text": "Shadow Crispus.",
+          "immediate": "+Intel chance; +Risk",
+          "long_term": "CRISPUS_DIRT+1"
+        },
+        {
+          "key": "C",
+          "text": "Secure the kitchen route.",
+          "immediate": "+TISSA_LOYALTY; -ARENA_HEAT",
+          "long_term": "KITCHEN_CLEAR=1"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-8",
+      "title": "Docking approach",
+      "act": "Act II — Courts & Cannons (with Added Decisions)",
+      "scene": "S7 — Spear of Jhordil — Mountain Docking",
+      "options": [
+        {
+          "key": "A",
+          "text": "Conservative pattern.",
+          "immediate": "Low damage; +LI_TRUST",
+          "long_term": "Li mentorship scene"
+        },
+        {
+          "key": "B",
+          "text": "Aggressive weave.",
+          "immediate": "Faster time; Damage risk; +ARENA_HEAT",
+          "long_term": "AIR_NERVE=1"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-8A",
+      "title": "Ritual etiquette at the Spear",
+      "act": "Act II — Courts & Cannons (with Added Decisions)",
+      "scene": "S7 — Spear of Jhordil — Mountain Docking",
+      "options": [
+        {
+          "key": "A",
+          "text": "Follow rites precisely.",
+          "immediate": "+REP_CALMORA; +LI_TRUST",
+          "long_term": "RITUAL_ETIQUETTE=1"
+        },
+        {
+          "key": "B",
+          "text": "Shortcut with void trick.",
+          "immediate": "+VOID_TAINT; -REP_CALMORA",
+          "long_term": "RITUAL_ETIQUETTE=0"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-9",
+      "title": "How to gather intel",
+      "act": "Act III — War on Two Fronts (with Added Decisions)",
+      "scene": "S8 — Ghost Fleet Pattern",
+      "options": [
+        {
+          "key": "A",
+          "text": "Risk forward scouts.",
+          "immediate": "Faster +GHOSTFLEET_INTEL; Injury risk",
+          "long_term": "Recon casualty debuffs"
+        },
+        {
+          "key": "B",
+          "text": "Decode from ports (slow).",
+          "immediate": "+GHOSTFLEET_INTEL (slow); Resource cost",
+          "long_term": "Scholar assists"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-9A",
+      "title": "Ambush target selection",
+      "act": "Act III — War on Two Fronts (with Added Decisions)",
+      "scene": "S8 — Ghost Fleet Pattern",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supply tenders.",
+          "immediate": "Starve Fleet; +Valys gratitude",
+          "long_term": "VALYS_AID=1"
+        },
+        {
+          "key": "B",
+          "text": "Flagship screen.",
+          "immediate": "High risk; big fame; +ARENA_HEAT",
+          "long_term": "SCREEN_BROKEN=1"
+        },
+        {
+          "key": "C",
+          "text": "Coastal cult cell.",
+          "immediate": "+Intel chain; +REP_HASRA (if reported)",
+          "long_term": "CULT_WEB+1"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-10",
+      "title": "Infiltration rules",
+      "act": "Act III — War on Two Fronts (with Added Decisions)",
+      "scene": "S9 — Conclave: Macha’s Geas",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hardline targets only.",
+          "immediate": "Lower collateral; Slower progress",
+          "long_term": "+REP_CALMORA"
+        },
+        {
+          "key": "B",
+          "text": "Any advantage.",
+          "immediate": "Faster progress; Moral cost",
+          "long_term": "+VOID_TAINT (minor)"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-10A",
+      "title": "Cover identity for Macha",
+      "act": "Act III — War on Two Fronts (with Added Decisions)",
+      "scene": "S9 — Conclave: Macha’s Geas",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dock scribe.",
+          "immediate": "+Access to manifests; Slower scenes",
+          "long_term": "MACHA_COVER=SCRIBE"
+        },
+        {
+          "key": "B",
+          "text": "Temple novice.",
+          "immediate": "+Access to rites; Ethical scrutiny",
+          "long_term": "MACHA_COVER=NOVICE"
+        },
+        {
+          "key": "C",
+          "text": "Arena handler.",
+          "immediate": "+Access to fighters; +ARENA_HEAT",
+          "long_term": "MACHA_COVER=HANDLER"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-11",
+      "title": "First upgrade path",
+      "act": "Act III — War on Two Fronts (with Added Decisions)",
+      "scene": "S10 — The Fist — Forge & Fly",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stealth shroud & sensor veil.",
+          "immediate": "+Stealth encounters; -ARENA_HEAT growth",
+          "long_term": "FIST_UPGRADES:STEALTH"
+        },
+        {
+          "key": "B",
+          "text": "Ballista & ramming spine.",
+          "immediate": "+Sky combat; +ARENA_HEAT",
+          "long_term": "FIST_UPGRADES:ASSAULT"
+        },
+        {
+          "key": "C",
+          "text": "Crew habitat & logistics.",
+          "immediate": "+Recovery; +Morale",
+          "long_term": "FIST_UPGRADES:SUPPORT"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-11A",
+      "title": "Crew composition",
+      "act": "Act III — War on Two Fronts (with Added Decisions)",
+      "scene": "S10 — The Fist — Forge & Fly",
+      "options": [
+        {
+          "key": "A",
+          "text": "Veteran marines.",
+          "immediate": "+Boarding power; Higher upkeep",
+          "long_term": "CREW=MARINES"
+        },
+        {
+          "key": "B",
+          "text": "Scouts & riggers.",
+          "immediate": "+Recon; +Traversal",
+          "long_term": "CREW=SCOUTS"
+        },
+        {
+          "key": "C",
+          "text": "Scholars & priests.",
+          "immediate": "+Lore; Ritual boosts",
+          "long_term": "CREW=SCHOLARS"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-12",
+      "title": "Public stance on the coup",
+      "act": "Act IV — Endgame & Revelation (with Added Decisions)",
+      "scene": "S11 — Sedjet’s Wyrm / Regime Fall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Denounce Crispus.",
+          "immediate": "+REP_DIMS; -REP_HASRA; +ARENA_HEAT",
+          "long_term": "CRISPUS_ENEMY=1"
+        },
+        {
+          "key": "B",
+          "text": "Work inside the system.",
+          "immediate": "+REP_HASRA; Intel access",
+          "long_term": "BLACKMAIL_CARDS+1"
+        },
+        {
+          "key": "C",
+          "text": "Stay neutral.",
+          "immediate": "Lower heat; Fewer resources",
+          "long_term": "Neutral path to Game II"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-12A",
+      "title": "Broadcast to the city",
+      "act": "Act IV — Endgame & Revelation (with Added Decisions)",
+      "scene": "S11 — Sedjet’s Wyrm / Regime Fall",
+      "options": [
+        {
+          "key": "A",
+          "text": "Call for calm & unity.",
+          "immediate": "+REP_HASRA; +REP_DIMS (minor)",
+          "long_term": "CITY_CALM=1"
+        },
+        {
+          "key": "B",
+          "text": "Call out the lies.",
+          "immediate": "+ARENA_HEAT; +REP_DIMS",
+          "long_term": "CITY_CALM=0; Uprising seeds"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-13",
+      "title": "Confront the name (Xal vs. Xalegos)",
+      "act": "Act IV — Endgame & Revelation (with Added Decisions)",
+      "scene": "S12 — Reactor & Names",
+      "options": [
+        {
+          "key": "A",
+          "text": "Embrace (covenant).",
+          "immediate": "+VOID_TAINT cap increase; Faith-based powers",
+          "long_term": "Export DIVINE"
+        },
+        {
+          "key": "B",
+          "text": "Reject (mortal).",
+          "immediate": "More social paths; Lower raw power",
+          "long_term": "Export MORTAL"
+        },
+        {
+          "key": "C",
+          "text": "Defer (seek proof).",
+          "immediate": "Hold ambiguity; +GHOSTFLEET_INTEL",
+          "long_term": "Export AMBIG"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-13A",
+      "title": "Method of covenant (if embraced)",
+      "act": "Act IV — Endgame & Revelation (with Added Decisions)",
+      "scene": "S12 — Reactor & Names",
+      "options": [
+        {
+          "key": "A",
+          "text": "Temple rite (public).",
+          "immediate": "+REP_CALMORA; +ARENA_HEAT",
+          "long_term": "DIVINE_PUBLIC=1"
+        },
+        {
+          "key": "B",
+          "text": "Hidden pact (private).",
+          "immediate": "+Stealth; +Li concern",
+          "long_term": "DIVINE_SECRET=1"
+        }
+      ]
+    },
+    {
+      "dp_id": "DP-13B",
+      "title": "Mercy for the saboteur at the Reactor",
+      "act": "Act IV — Endgame & Revelation (with Added Decisions)",
+      "scene": "S12 — Reactor & Names",
+      "options": [
+        {
+          "key": "A",
+          "text": "Spare and recruit.",
+          "immediate": "+REP_DIMS; +Intel",
+          "long_term": "SABOTEUR_ALLY=1"
+        },
+        {
+          "key": "B",
+          "text": "Execute as example.",
+          "immediate": "+REP_HASRA; Fear effect",
+          "long_term": "SABOTEUR_ALLY=0"
+        }
+      ]
+    }
+  ]
+}

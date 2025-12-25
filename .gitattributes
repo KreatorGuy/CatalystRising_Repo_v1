@@ -1,0 +1,9 @@
+# Optional Git LFS patterns (recommended if you keep large binaries in the repo)
+# To enable: install Git LFS and run `git lfs install` then `git lfs track` for the patterns you want.
+#
+# *.uasset filter=lfs diff=lfs merge=lfs -text
+# *.umap   filter=lfs diff=lfs merge=lfs -text
+# *.wav    filter=lfs diff=lfs merge=lfs -text
+# *.mp4    filter=lfs diff=lfs merge=lfs -text
+# *.png    filter=lfs diff=lfs merge=lfs -text
+# *.pdf    filter=lfs diff=lfs merge=lfs -text
