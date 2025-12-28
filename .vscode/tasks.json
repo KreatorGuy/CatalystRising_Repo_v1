@@ -1,0 +1,56 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "UE: Build Editor (Development Win64)",
+      "type": "process",
+      "command": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Build\\BatchFiles\\Build.bat",
+      "args": [
+        "CatalystRisingEditor",
+        "Win64",
+        "Development",
+        "-Project=${workspaceFolder}\\CatalystRising.uproject",
+        "-WaitMutex",
+        "-NoHotReload"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "UE: Build Game (Development Win64)",
+      "type": "process",
+      "command": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Build\\BatchFiles\\Build.bat",
+      "args": [
+        "CatalystRising",
+        "Win64",
+        "Development",
+        "-Project=${workspaceFolder}\\CatalystRising.uproject",
+        "-WaitMutex",
+        "-NoHotReload"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "group": "build"
+    },
+    {
+      "label": "UE: Launch Editor (CatalystRising)",
+      "type": "process",
+      "command": "C:\\Program Files\\Epic Games\\UE_5.6\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+      "args": [
+        "${workspaceFolder}\\CatalystRising.uproject"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

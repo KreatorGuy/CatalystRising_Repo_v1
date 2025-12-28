@@ -4,19 +4,8 @@
 #include "Engine/DeveloperSettings.h"
 #include "Engine/DataTable.h"
 
-// Prefer engine-provided FFilePath where available.
-#if __has_include("Misc/FilePath.h")
-#include "Misc/FilePath.h"
-#elif __has_include("UObject/SoftObjectPath.h")
-#include "UObject/SoftObjectPath.h"
-#else
-// Fallback when neither header is available; keep it plain so UHT stays happy.
-struct FFilePath
-{
-    FString FilePath;
-};
-#endif
-
+// Use plain FString for editor-specified JSON file paths to avoid
+// cross-version include/definition issues with FFilePath and UHT.
 #include "SGNarrativeSettings.generated.h"
 
 /**
@@ -56,11 +45,11 @@ public:
 
     /** JSON file path (relative to ProjectDir) containing expanded branch quest details. */
     UPROPERTY(config, EditAnywhere, Category="Data")
-    FFilePath BranchQuestDetailsJson;
+    FString BranchQuestDetailsJson;
 
     /** JSON file path (relative to ProjectDir) containing parsed decision points. */
     UPROPERTY(config, EditAnywhere, Category="Data")
-    FFilePath DecisionPointsJson;
+    FString DecisionPointsJson;
 
     virtual FName GetCategoryName() const override { return FName("Project"); }
 };

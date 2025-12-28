@@ -30,7 +30,7 @@ void USGDecisionPointSubsystem::Reload()
 	// Fallback: if no DataTable is configured yet, we can still read the parsed JSON directly.
 	if (!DecisionPointsTable && Settings)
 	{
-		const FString RelPath = Settings->DecisionPointsJson.FilePath.TrimStartAndEnd();
+		const FString RelPath = Settings->DecisionPointsJson.TrimStartAndEnd();
 		if (!RelPath.IsEmpty())
 		{
 			const FString AbsPath = FPaths::ConvertRelativePathToFull(FPaths::Combine(FPaths::ProjectDir(), RelPath));

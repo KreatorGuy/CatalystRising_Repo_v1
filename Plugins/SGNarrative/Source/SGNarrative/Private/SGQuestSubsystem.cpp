@@ -179,7 +179,7 @@ void USGQuestSubsystem::LoadDetailsJson()
 		return;
 	}
 
-	FString RelPath = Settings->BranchQuestDetailsJson.FilePath;
+	FString RelPath = Settings->BranchQuestDetailsJson;
 	RelPath = RelPath.TrimStartAndEnd();
 	if (RelPath.IsEmpty())
 	{
