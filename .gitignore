@@ -30,5 +30,17 @@ Thumbs.db
 # Unreal asset build products (keep your source assets in Content/)
 **/DerivedDataCache/
 
+# Repo-local generated outputs
+Generated/
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Avoid accidentally committing local character assets
+Content/Characters/
+
 # Optional: if you use Perforce workspaces etc.
 *.p4ignore
